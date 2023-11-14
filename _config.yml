@@ -18,19 +18,51 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: RAID
+email: jonhatfieldtechwriting@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  RESTful AI Demo
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
+aux_links:
+  "Just the Docs on GitHub":
+    - "//github.com/just-the-docs/just-the-docs"
+aux_links_new_tab: true
+heading_anchors: true
+
+callouts:
+  warning:
+    title: Warning
+    color: red
+
+collections:
+  # Define a collection named "tests", its documents reside in the "_tests" directory
+  collection_intro:
+    permalink: "/:collection/:path/"
+    output: true
+  collection_handwriting-recogniser:
+    permalink: "/:collection/:path/"
+    output: true
+  collection_zoo-chatbot:
+    permalink: "/:collection/:path/"
+    output: true
+just_the_docs:
+  collections:
+    collection_intro:
+      name: Introduction
+      nav_fold: true
+    collection_handwriting-recogniser:
+      name: Handwriting Recogniser
+      nav_fold: true
+    collection_zoo-chatbot:
+      name: Zoo Chatbot
+      nav_fold: true
+
 # Build settings
-theme: minima
+theme: just-the-docs
 plugins:
   - jekyll-feed
 
