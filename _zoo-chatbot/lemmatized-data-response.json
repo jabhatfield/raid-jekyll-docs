@@ -1,0 +1,22 @@
+{
+  "lemmatizedData": [
+    {
+      "category": "animal-list",
+      "lemmatizedPhrases": [
+        "what animal do you have"
+      ]
+    },
+    {
+      "category": "directions",
+      "lemmatizedPhrases": [
+        "where be you"
+      ]
+    },
+    {
+      "category": "opening-times",
+      "lemmatizedPhrases": [
+        "when be you open"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "possibleResponses": [
+    {
+      "category": "opening-times",
+      "reply": "The opening times are Mon - Fri 9am - 7pm every day, including holidays"
+    },
+    {
+      "category": "animal-list",
+      "reply": "The zoo has 10 giraffes, 3 elephants, 2 lions and 12 penguins"
+    },
+    {
+      "category": "ticket-prices",
+      "reply": "Tickets cost £20 for adults and £10 for children. Refunds are permitted 48 hours or more prior to entry time"
+    }
+  ]
+}

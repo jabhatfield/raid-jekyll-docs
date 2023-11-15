@@ -1,0 +1,21 @@
+{
+  "tags": [
+    "DT",
+    "NNS",
+    "."
+  ],
+  "probabilities": [
+    {
+      "tag": "DT",
+      "probability": 0.9201411555
+    },
+    {
+      "tag": "NNS",
+      "probability": 0.867740459
+    },
+    {
+      "tag": ".",
+      "probability": 0.982848614
+    }
+  ]
+}

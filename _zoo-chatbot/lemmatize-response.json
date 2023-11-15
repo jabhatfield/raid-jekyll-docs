@@ -1,0 +1,21 @@
+{
+  "lemmas": [
+    "any",
+    "giraffe",
+    "?"
+  ],
+  "probabilities": [
+    {
+      "lemma": "any",
+      "probability": 0.9965145882
+    },
+    {
+      "lemma": "giraffe",
+      "probability": 0.9917771516
+    },
+    {
+      "lemma": "?",
+      "probability": 0.4033399929
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "tokens": [
+    "giraffes",
+    "like",
+    "to",
+    "eat",
+    "?",
+    "leaves",
+    ",oh"
+  ],
+  "probabilities": [
+    {
+      "token": "giraffes",
+      "probability": 1.0
+    },
+    {
+      "token": "like",
+      "probability": 1.0
+    },
+    {
+      "token": "to",
+      "probability": 1.0
+    },
+    {
+      "token": "eat",
+      "probability": 0.9912258614
+    },
+    {
+      "token": "?",
+      "probability": 1.0
+    },
+    {
+      "token": "leaves",
+      "probability": 0.9503636232
+    },
+    {
+      "token": ",oh",
+      "probability": 0.9828333777
+    }
+  ]
+}

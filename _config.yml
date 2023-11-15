@@ -40,24 +40,24 @@ callouts:
 
 collections:
   # Define a collection named "tests", its documents reside in the "_tests" directory
-  collection_intro:
+  introduction:
     permalink: "/:collection/:path/"
     output: true
-  collection_handwriting-recogniser:
+  handwriting-recogniser:
     permalink: "/:collection/:path/"
     output: true
-  collection_zoo-chatbot:
+  zoo-chatbot:
     permalink: "/:collection/:path/"
     output: true
 just_the_docs:
   collections:
-    collection_intro:
+    introduction:
       name: Introduction
       nav_fold: true
-    collection_handwriting-recogniser:
+    handwriting-recogniser:
       name: Handwriting Recogniser
       nav_fold: true
-    collection_zoo-chatbot:
+    zoo-chatbot:
       name: Zoo Chatbot
       nav_fold: true
 

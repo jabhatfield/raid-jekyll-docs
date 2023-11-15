@@ -1,0 +1,21 @@
+{
+  "tokens": [
+    "any",
+    "giraffes",
+    "?"
+  ],
+  "probabilities": [
+    {
+      "token": "any",
+      "probability": 1
+    },
+    {
+      "token": "giraffes",
+      "probability": 0.9925965989
+    },
+    {
+      "token": "?",
+      "probability": 1
+    }
+  ]
+}

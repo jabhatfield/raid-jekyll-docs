@@ -1,0 +1,12 @@
+{
+  "tokens": [
+    "any",
+    "giraffes",
+    "?"
+  ],
+  "posTags": [
+    "DT",
+    "NNS",
+    "."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "category": "animal-list",
+  "reply": "The zoo has 10 giraffes, 3 elephants, 2 lions and 12 penguins",
+  "probabilities": [
+    {
+      "category": "animal-list",
+      "probability": 0.6893424773
+    },
+    {
+      "category": "directions",
+      "probability": 0.0776643807
+    },
+    {
+      "category": "opening-times",
+      "probability": 0.0776643807
+    }
+  ]
+}

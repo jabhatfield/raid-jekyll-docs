@@ -1,0 +1,17 @@
+{
+  "handwrittenNumber": "0",
+  "probabilities": [
+    {
+      "handwrittenNumber": "0",
+      "probability": 0.9999525547
+    },
+    {
+      "handwrittenNumber": "2",
+      "probability": 0.0000418071
+    },
+    {
+      "handwrittenNumber": "6",
+      "probability": 0.0000029869
+    }
+  ]
+}
