@@ -1,23 +1,24 @@
 ---
 layout: page
 title: Introduction
+img-brain-index: 1
 ---
 
 # RESTful AI Demo
 {: .no_toc }
+
+<figure>
+<img src="/assets/images/brain.jpg" alt="Brain neural network" />
+<figcaption>Figure {{page.img-brain-index}}. Photo by <a href="https://unsplash.com/@growtika" target="_blank">Growtika</a> 
+on <a href="https://unsplash.com/photos/f0JGorLOkw0" target="_blank">Unsplash</a>
+</figcaption>
+</figure>
 
 ## Table of contents
 {: .no_toc .text-delta }
 
 1. TOC
 {:toc}
-
-<figure>
-<img src="brain.jpg" alt="Brain neural network" />
-<figcaption>Photo by <a href="https://unsplash.com/@growtika">Growtika,window=_blank</a> 
-on <a href="https://unsplash.com/photos/f0JGorLOkw0">Unsplash,window=_blank</a>
-</figcaption>
-</figure>
 
 # Introduction
 
