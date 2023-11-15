@@ -1,3 +1,17 @@
+---
+layout: page
+title: Tokenize
+---
+
+# Tokenize
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 A chat message must first be tokenized into its constituent natural
 language constructs such as words and punctuation marks. This allows
 meaning to subsequently be attached to each part of the message.

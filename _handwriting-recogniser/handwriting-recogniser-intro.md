@@ -1,3 +1,17 @@
+---
+layout: page
+title: Handwriting Recogniser
+---
+
+# Handwriting Recogniser
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 <figure>
 <img src="handwriting.jpg" alt="Handwriting" />
 <figcaption>Photo by <a href="https://unsplash.com/@fioreale">Alessio

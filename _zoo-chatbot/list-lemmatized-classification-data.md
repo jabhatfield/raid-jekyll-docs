@@ -1,3 +1,17 @@
+---
+layout: page
+title: List lemmatized classification data
+---
+
+# List lemmatized classification data
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 This endpoint lists the lemmatized classification data used for training
 the chatbot. It consists of lemmatized chat phrases that a user could
 potentially type, along with their associated reply category.

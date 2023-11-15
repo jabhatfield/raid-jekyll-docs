@@ -1,3 +1,17 @@
+---
+layout: page
+title: API specification
+---
+
+# API specification
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 RAID uses [Swagger,window=\_blank](https://swagger.io/) to implement the
 [OpenAPI
 Specification,window=\_blank](https://swagger.io/specification/).

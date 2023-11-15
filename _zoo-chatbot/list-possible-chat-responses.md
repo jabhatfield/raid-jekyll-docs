@@ -1,3 +1,17 @@
+---
+layout: page
+title: List possible chat responses
+---
+
+# List possible chat responses
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 This endpoint returns the set of possible replies that the chatbot can
 choose from. Each reply has a category, which is an identifier to link
 the reply to its associated [training

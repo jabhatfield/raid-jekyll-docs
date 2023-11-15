@@ -1,3 +1,17 @@
+---
+layout: page
+title: Zoo Chatbot
+---
+
+# Zoo Chatbot
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 <figure>
 <img src="zoo.jpg" alt="Tiger resting at the zoo" />
 <figcaption>Photo by <a href="https://unsplash.com/@kovah">Kevin

@@ -1,3 +1,17 @@
+---
+layout: page
+title: Handwriting Recogniser tutorial
+---
+
+# Handwriting Recogniser tutorial
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 Learn to use all the Handwriting Recogniser APIs.
 
 # Learning objectives

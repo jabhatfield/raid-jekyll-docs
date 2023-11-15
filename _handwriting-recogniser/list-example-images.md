@@ -1,3 +1,17 @@
+---
+layout: page
+title: List example input images
+---
+
+# List example input images
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 This endpoint returns the names of the example images available for
 classification.
 

@@ -1,3 +1,17 @@
+---
+layout: page
+title: Zoo Chatbot deep dive
+---
+
+# Zoo Chatbot deep dive
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 This deep dive outlines the main concepts of the Zoo Chatbot inner
 workings.
 

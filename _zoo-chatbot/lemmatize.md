@@ -1,3 +1,17 @@
+---
+layout: page
+title: Lemmatize
+---
+
+# Lemmatize
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 The [part-of-speech tags](#tutorial/tag-parts-of-speech.adoc) allow the
 [tokens](#tutorial/tokenize.adoc) to be lemmatized. Lemmatization
 involves turning a word into its base form, or *lemma*. For example, the

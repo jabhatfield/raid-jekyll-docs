@@ -1,3 +1,17 @@
+---
+layout: page
+title: Classify a handwritten zero
+---
+
+# Classify a handwritten zero
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 This endpoint classifies an [image of a handwritten
 zero,window=\_blank](https://resources.djl.ai/images/0.png)
 ![0](https://github.com/jon-hatfield-tech-writing/ai-demo/blob/main/src/main/resources/images/0.png?raw=true)

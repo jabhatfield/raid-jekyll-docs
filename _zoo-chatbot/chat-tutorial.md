@@ -1,3 +1,17 @@
+---
+layout: page
+title: Zoo Chatbot tutorial
+---
+
+# Zoo Chatbot tutorial
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 Learn to use all the Zoo Chatbot APIs.
 
 # Learning objectives

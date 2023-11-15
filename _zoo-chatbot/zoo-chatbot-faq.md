@@ -1,3 +1,17 @@
+---
+layout: page
+title: Zoo Chatbot FAQ
+---
+
+# Zoo Chatbot FAQ
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 # Getting started
 
 See the [???](#intro-component::install-and-run-quickstart.adoc).

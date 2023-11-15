@@ -1,3 +1,17 @@
+---
+layout: page
+title: Handwriting Recogniser deep dive
+---
+
+# Handwriting Recogniser deep dive
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 This deep dive outlines the main concepts of the Handwriting Recogniser
 inner workings.
 

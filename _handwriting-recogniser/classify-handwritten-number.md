@@ -1,3 +1,17 @@
+---
+layout: page
+title: Classify a handwritten number
+---
+
+# Classify a handwritten number
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 This endpoint classifies any image of a handwritten number that conforms
 to the [image format](#_image_format). A neural network trained on the
 [MNIST database of handwritten

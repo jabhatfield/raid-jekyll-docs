@@ -1,3 +1,17 @@
+---
+layout: page
+title: Handwriting Recogniser FAQ
+---
+
+# Handwriting Recogniser FAQ
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 # Getting started
 
 See the [???](#intro-component::install-and-run-quickstart.adoc).

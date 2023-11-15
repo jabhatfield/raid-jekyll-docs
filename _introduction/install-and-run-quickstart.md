@@ -1,3 +1,17 @@
+---
+layout: page
+title: Install and run quickstart
+---
+
+# Install and run quickstart
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 Follow this quickstart to achieve the following operations:
 
 -   \[x\] Send a chat message to the

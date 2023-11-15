@@ -1,3 +1,17 @@
+---
+layout: page
+title: Tag parts of speech
+---
+
+# Tag parts of speech
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 The [tokens](#:tutorial/tokenize.adoc) that constitute the chat message
 are tagged with part-of-speech labels such as word classes and
 punctuation marks. For example, a token may be a word and that word may

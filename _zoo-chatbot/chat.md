@@ -1,3 +1,17 @@
+---
+layout: page
+title: Chat
+---
+
+# Chat
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 The chat endpoint uses all the previous techniques to prepare a message:
 
 1.  [Tokenization](#tutorial/tokenize.adoc)
