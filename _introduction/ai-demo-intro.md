@@ -41,7 +41,7 @@ written in Java Spring Boot and consists of two components:
 ML is a subset of AI and DL is a subset of ML:
 
 <figure>
-<img src="ai-ml-dl.png" alt="AI vs ML vs DL" />
+<img src="/assets/images/ai-ml-dl-purple.png" alt="AI vs ML vs DL" />
 <figcaption>AI vs. ML vs. DL</figcaption>
 </figure>
 
