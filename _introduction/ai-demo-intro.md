@@ -1,6 +1,9 @@
 ---
 layout: page
 title: Introduction
+permalink: /introduction
+redirect_from:
+- /
 img-brain-index: 1
 ---
 
