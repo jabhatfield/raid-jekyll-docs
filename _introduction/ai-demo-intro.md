@@ -5,6 +5,7 @@ permalink: /introduction
 redirect_from:
 - /
 img-brain-index: 1
+img-definitions-index: 2
 ---
 
 # RESTful AI Demo
@@ -29,15 +30,11 @@ on <a href="https://unsplash.com/photos/f0JGorLOkw0" target="_blank">Unsplash</a
 **machine learning** (**ML**) and **deep learning** (**DL**). It is
 written in Java Spring Boot and consists of two components:
 
--   [Zoo Chatbot](#zoo-chatbot-component::zoo-chatbot-intro.adoc)(ML):
-    enquires about a zoo, based on [Apache
-    OpenNLP,window=\_blank](https://opennlp.apache.org) **natural
-    language processing** (**NLP**).
+* [Zoo Chatbot]({% link _zoo-chatbot/zoo-chatbot-intro.md %}) (ML): enquires about a zoo, based on 
+[Apache OpenNLP](https://opennlp.apache.org){:target="_blank"} **natural language processing** (**NLP**).
 
--   [Handwriting
-    Recogniser](#handwriting-recogniser-component::handwriting-recogniser-intro.adoc)(DL):
-    recognition of handwritten digits, based on [Deep Java
-    Library,window=\_blank](https://djl.ai) (**DJL**) image recognition.
+* [Handwriting Recogniser]({% link _handwriting-recogniser/handwriting-recogniser-intro.md %}) (DL): recognition of 
+handwritten digits, based on [Deep Java Library](https://djl.ai){:target="_blank"} (**DJL**) image recognition.
 
 # Definitions of machine learning and deep learning
 
@@ -45,37 +42,41 @@ ML is a subset of AI and DL is a subset of ML:
 
 <figure>
 <img src="/assets/images/ai-ml-dl-purple.png" alt="AI vs ML vs DL" />
-<figcaption>AI vs. ML vs. DL</figcaption>
+<figcaption>Figure {{page.img-definitions-index}}. AI vs. ML vs. DL</figcaption>
 </figure>
 
 ## Machine learning
 
--   Typically involves providing an algorithm with example input and
-    corresponding output data, then letting the algorithm run
-    iteratively to learn the nature of these mappings
+* Typically involves providing an algorithm with example input and corresponding output data, then letting the algorithm run
+iteratively to learn the nature of these mappings
 
--   Iteratively adjusts its parameters and compares its calculated
-    output, derived from the input, to the defined output
+* Iteratively adjusts its parameters and compares its calculated output, derived from the input, to the defined output
 
--   Once the model is trained in this manner it can predict the
-    classification of relevant input
+* Once the model is trained in this manner it can predict the classification of relevant input
 
 ## Deep learning
 
--   Similar to ML in that it also learns through an iterative algorithm
+* Similar to ML in that it also learns through an iterative algorithm
 
--   Typically uses much more input data and stores its calculations in a
-    neural network structure
+* Typically uses much more input data and stores its calculations in a neural network structure
 
--   The data and relationships of data are stored as nodes and weighted
-    vectors
+* The data and relationships of data are stored as nodes and weighted vectors
 
--   Powerful enough to learn on its own, without provision of example
-    output
+* Powerful enough to learn on its own, without provision of example output
 
 For a deeper understanding of the inner workings of ML and DL, see these
 deep dives:
 
--   [???](#zoo-chatbot-component::zoo-chatbot-deep-dive.adoc)
+* [Zoo Chatbot deep dive]({% link _zoo-chatbot/zoo-chatbot-deep-dive.md %})
 
--   [???](#handwriting-recogniser-component::handwriting-recogniser-deep-dive.adoc)
+* [Handwriting Recogniser deep dive]({% link _handwriting-recogniser/handwriting-recogniser-deep-dive.md %})
+
+<!-- Pagination links -->
+<div class="Previous-next">
+  {% if page.previous.url %}
+    <a class="previous" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+  {% endif %}
+</div>
