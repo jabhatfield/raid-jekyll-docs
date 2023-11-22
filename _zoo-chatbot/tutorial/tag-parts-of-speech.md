@@ -37,3 +37,6 @@ identified as a plural noun. The full stop denotes the end of a
 sentence:
 
 **Response**
+
+<br />
+{% include components/breadcrumbs.html %}

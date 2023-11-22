@@ -21,3 +21,6 @@ the [???](#intro-component::api-spec.adoc) for more details and the
 understanding of the Handwriting Recogniser inner workings.
 
 Loading…
+
+<br />
+{% include components/breadcrumbs.html %}

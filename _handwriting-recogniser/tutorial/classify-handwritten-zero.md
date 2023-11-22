@@ -35,3 +35,6 @@ Notice that the image is recognised as `0`, with a high probability of
 correctness:
 
 **Response**
+
+<br />
+{% include components/breadcrumbs.html %}

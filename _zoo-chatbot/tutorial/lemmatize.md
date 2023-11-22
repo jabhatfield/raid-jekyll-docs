@@ -32,3 +32,6 @@ Notice that the word `any` is already in its base form and the word
 `giraffes` is converted to its base form of `giraffe`:
 
 **Response**
+
+<br />
+{% include components/breadcrumbs.html %}

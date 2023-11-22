@@ -44,3 +44,6 @@ Notice that the probabilities of correctness of the tokens are lower for
 the erroneous parts of the message:
 
 **Response**
+
+<br />
+{% include components/breadcrumbs.html %}

@@ -31,3 +31,6 @@ Notice that the values of each category match the categories in the
 [training data](#tutorial/list-lemmatized-classification-data.adoc):
 
 **Response**
+
+<br />
+{% include components/breadcrumbs.html %}

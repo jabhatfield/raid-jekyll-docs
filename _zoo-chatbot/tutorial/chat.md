@@ -40,3 +40,6 @@ Send the following chat message:
 Notice that the most relevant reply is returned:
 
 **Response**
+
+<br />
+{% include components/breadcrumbs.html %}

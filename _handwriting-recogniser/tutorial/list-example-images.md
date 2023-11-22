@@ -30,3 +30,6 @@ Notice that the image names correspond to `fileName` in the
 [???](#tutorial/classify-handwritten-number.adoc) example requests:
 
 **Response**
+
+<br />
+{% include components/breadcrumbs.html %}

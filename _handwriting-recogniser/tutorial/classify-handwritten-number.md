@@ -88,3 +88,6 @@ name of the created image.
 Expect a response structured as per the [handwritten-zero
 response](#handwritten-zero-response). Notice that the legibility of the
 handwritten number corresponds to the probability of correctness.
+
+<br />
+{% include components/breadcrumbs.html %}

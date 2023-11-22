@@ -39,3 +39,6 @@ Send the following request:
 Notice that the data is lemmatized:
 
 **Response**
+
+<br />
+{% include components/breadcrumbs.html %}
