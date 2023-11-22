@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Zoo Chatbot tutorial
+title: Tutorial
 has_children: true
 nav_order: 2
 ---

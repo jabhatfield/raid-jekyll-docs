@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tag parts of speech
-parent: Zoo Chatbot tutorial
+parent: Tutorial
 nav_order: 3
 ---
 
