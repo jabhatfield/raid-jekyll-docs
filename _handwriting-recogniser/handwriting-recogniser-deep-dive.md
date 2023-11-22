@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Handwriting Recogniser deep dive
+title: Deep dive
+nav_order: 3
 ---
 
 # Handwriting Recogniser deep dive

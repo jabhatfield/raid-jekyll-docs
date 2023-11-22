@@ -1,6 +1,7 @@
 ---
 layout: page
 title: API specification
+nav_order: 3
 ---
 
 # API specification

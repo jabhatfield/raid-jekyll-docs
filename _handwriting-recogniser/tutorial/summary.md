@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Summary
+parent: Tutorial
+nav_order: 4
 ---
 
 # Summary

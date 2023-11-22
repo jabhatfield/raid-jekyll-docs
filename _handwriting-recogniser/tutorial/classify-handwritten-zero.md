@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Classify a handwritten zero
+parent: Tutorial
+nav_order: 1
 ---
 
 # Classify a handwritten zero

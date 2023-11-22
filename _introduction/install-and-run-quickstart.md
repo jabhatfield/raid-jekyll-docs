@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Install and run quickstart
+nav_order: 2
 ---
 
 # Install and run quickstart

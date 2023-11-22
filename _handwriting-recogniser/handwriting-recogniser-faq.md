@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Handwriting Recogniser FAQ
+title: FAQ
+nav_order: 4
 ---
 
 # Handwriting Recogniser FAQ

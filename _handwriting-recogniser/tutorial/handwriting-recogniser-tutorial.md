@@ -1,6 +1,8 @@
 ---
 layout: page
-title: Handwriting Recogniser tutorial
+title: Tutorial
+has_children: true
+nav_order: 2
 ---
 
 # Handwriting Recogniser tutorial

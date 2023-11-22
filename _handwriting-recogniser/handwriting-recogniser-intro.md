@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Handwriting Recogniser
+title: Introduction
+nav_order: 1
 ---
 
 # Handwriting Recogniser

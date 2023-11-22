@@ -1,6 +1,8 @@
 ---
 layout: page
 title: List example input images
+parent: Tutorial
+nav_order: 3
 ---
 
 # List example input images

@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Classify a handwritten number
+parent: Tutorial
+nav_order: 2
 ---
 
 # Classify a handwritten number

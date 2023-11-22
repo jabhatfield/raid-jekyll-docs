@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Introduction
-permalink: /introduction
+nav_order: 1
 redirect_from:
 - /
 img-brain-index: 1
