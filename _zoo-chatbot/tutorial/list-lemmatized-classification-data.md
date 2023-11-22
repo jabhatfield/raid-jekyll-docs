@@ -1,6 +1,8 @@
 ---
 layout: page
 title: List lemmatized classification data
+parent: Zoo Chatbot tutorial
+nav_order: 7
 ---
 
 # List lemmatized classification data

@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Zoo Chatbot deep dive
+title: Deep dive
+nav_order: 3
 ---
 
 # Zoo Chatbot deep dive

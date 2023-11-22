@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Lemmatize
+parent: Zoo Chatbot tutorial
+nav_order: 4
 ---
 
 # Lemmatize

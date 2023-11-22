@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Summary
+parent: Zoo Chatbot tutorial
+nav_order: 8
 ---
 
 # Summary

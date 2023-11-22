@@ -1,6 +1,8 @@
 ---
 layout: page
 title: List possible chat responses
+parent: Zoo Chatbot tutorial
+nav_order: 6
 ---
 
 # List possible chat responses

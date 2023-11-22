@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Zoo Chatbot
+title: Introduction
+nav_order: 1
 ---
 
 # Zoo Chatbot

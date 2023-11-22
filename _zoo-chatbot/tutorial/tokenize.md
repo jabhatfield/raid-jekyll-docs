@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Tokenize
+parent: Zoo Chatbot tutorial
+nav_order: 2
 ---
 
 # Tokenize

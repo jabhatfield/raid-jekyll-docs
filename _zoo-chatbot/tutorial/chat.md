@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Chat
+parent: Zoo Chatbot tutorial
+nav_order: 5
 ---
 
 # Chat

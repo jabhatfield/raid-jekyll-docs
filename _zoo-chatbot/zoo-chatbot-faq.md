@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Zoo Chatbot FAQ
+title: FAQ
+nav_order: 4
 ---
 
 # Zoo Chatbot FAQ
