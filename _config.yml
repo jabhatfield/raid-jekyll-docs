@@ -40,7 +40,7 @@ callouts:
 
 collections:
   # Define a collection named "tests", its documents reside in the "_tests" directory
-  introduction:
+  demo-overview:
     permalink: "/:collection/:path/"
     output: true
   handwriting-recogniser:
@@ -51,8 +51,8 @@ collections:
     output: true
 just_the_docs:
   collections:
-    introduction:
-      name: Introduction
+    demo-overview:
+      name: Demo Overview
       nav_fold: true
     handwriting-recogniser:
       name: Handwriting Recogniser
