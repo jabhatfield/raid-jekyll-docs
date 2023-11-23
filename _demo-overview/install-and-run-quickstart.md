@@ -7,45 +7,38 @@ nav_order: 2
 # Install and run quickstart
 {: .no_toc }
 
+Follow this quickstart to achieve the following operations:
+
+* [x] Send a chat message to the [Zoo Chatbot]({% link _zoo-chatbot/zoo-chatbot-intro.md %}) and receive an answer.
+
+* [x] Send an image of a handwritten number to the
+[Handwriting Recogniser]({% link _handwriting-recogniser/handwriting-recogniser-intro.md %}) and receive its 
+numerical value.
+
 ## Table of contents
 {: .no_toc .text-delta }
 
 1. TOC
 {:toc}
 
-Follow this quickstart to achieve the following operations:
-
--   \[x\] Send a chat message to the
-    [???](#zoo-chatbot-component::zoo-chatbot-intro.adoc) and receive an
-    answer.
-
--   \[x\] Send an image of a handwritten number to the
-    [???](#handwriting-recogniser-component::handwriting-recogniser-intro.adoc)
-    and receive its numerical value.
-
 # Prerequisites
 
--   Java version 17 or higher.
-    [OpenJDK,window=\_blank](https://openjdk.org) downloaded via
-    [SDKMAN!,window=\_blank](https://sdkman.io) is recommended
+* Java version 17 or higher. [OpenJDK](https://openjdk.org){:target="_blank"} downloaded via
+[SDKMAN!](https://sdkman.io){:target="_blank"} is recommended
 
--   [Git,window=\_blank](https://git-scm.com/downloads)
+* [Git](https://git-scm.com/downloads){:target="_blank"}
 
 # Build
 
-Clone the code from
-[GitHub,window=\_blank](https://github.com/jon-hatfield-tech-writing/ai-demo)
+Clone the code from [GitHub](https://github.com/jon-hatfield-tech-writing/ai-demo){:target="_blank"}
 then use an IDE or the command line to continue.
 
 ## Build with an IDE
 
-Import the code as a Java project.
-[IntelliJ,window=\_blank](https://www.jetbrains.com/idea/) is
-recommended.
+Import the code as a Java project. [IntelliJ](https://www.jetbrains.com/idea/){:target="_blank"} is recommended.
 
-RAID uses [Lombok,window=\_blank](https://projectlombok.org) to reduce
-boilerplate code. Ensure that the IDE has a Lombok plugin and that
-annotation processing is enabled.
+RAID uses [Lombok](https://projectlombok.org){:target="_blank"} to reduce boilerplate code. Ensure that the IDE has a 
+Lombok plugin and that annotation processing is enabled.
 
 ## Build with the command line
 
@@ -55,13 +48,11 @@ Go into the project root folder and build an executable JAR as follows:
 
 # Run
 
-Ensure RAID is [built](#_build) then run it with an IDE or the command
-line.
+Ensure RAID is [built](#build) then run it with an IDE or the command line.
 
 ## Run with an IDE
 
-Open `AIDemoApplication.java` and run the `main` method using the IDE
-**Play** button.
+Open `AIDemoApplication.java` and run the `main` method using the IDE **Play** button.
 
 ## Run with the command line
 
@@ -75,38 +66,52 @@ Access the API on the root context path `/`:
 
     http://localhost:8080/
 
-The easiest way to call the API operations is to [use the Swagger
-UI](#api-spec.adoc). Alternatively, use
-[Postman,window=\_blank](https://www.postman.com) or `curl` and ensure
-that the `Content-Type` header is set to `application/json`.
+The easiest way to call the API operations is to [use the Swagger UI]({% link _demo-overview/api-spec.md %}). 
+Alternatively, use [Postman](https://www.postman.com){:target="_blank"} or `curl` and ensure that the `Content-Type` 
+header is set to `application/json`.
 
 ## Send a chat message
 
 Send the following chat request:
 
-**POST /zoo-chatbot/chat**
+_POST /zoo-chatbot/chat_
+{% highlight json %}
+{% include chat-request.json %}
+{% endhighlight %}
 
 The response is as follows:
 
-**Response**
+{% include data-truncation-note.md %}
+
+_Response_
+{% highlight json %}
+{% include chat-response.json %}
+{% endhighlight %}
 
 ## Send an image of a handwritten number
 
 Send the following image recognition request:
 
-**POST /handwriting-recogniser/classify-handwritten-number**
+_POST /handwriting-recogniser/classify-handwritten-number_
+{% highlight json %}
+{% include handwritten-number-request-zero.json %}
+{% endhighlight %}
 
 The response is as follows:
 
-**Response**
+{% include data-truncation-note.md %}
+
+_Response_
+{% highlight json %}
+{% include handwritten-zero-response.json %}
+{% endhighlight %}
 
 # Learn more
 
--   See the [???](#zoo-chatbot-component::tutorial/chat-tutorial.adoc)
-    to learn all the Zoo Chatbot operations.
+* See the [Zoo Chatbot tutorial]({% link _zoo-chatbot/tutorial/chat-tutorial.md %})
+to learn all the Zoo Chatbot operations.
 
--   See the
-    [???](#handwriting-recogniser-component::tutorial/handwriting-recogniser-tutorial.adoc)
-    to learn all the Handwriting Recogniser operations.
+* See the [Handwriting Recogniser tutorial]({% link _handwriting-recogniser/tutorial/handwriting-recogniser-tutorial.md %})
+to learn all the Handwriting Recogniser operations.
 
--   See the [???](#api-spec.adoc) for the full specification.
+* See the [API specification]({% link _demo-overview/api-spec.md %}) for the full specification.

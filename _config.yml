@@ -37,6 +37,9 @@ callouts:
   warning:
     title: Warning
     color: red
+  note:
+    title: Note
+    color: blue
 
 collections:
   # Define a collection named "tests", its documents reside in the "_tests" directory
