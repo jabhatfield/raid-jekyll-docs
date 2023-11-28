@@ -74,7 +74,8 @@ header is set to `application/json`.
 
 Send the following chat request:
 
-_POST /zoo-chatbot/chat_
+{: .http-request }
+POST /zoo-chatbot/chat
 {% highlight json %}
 {% include chat-request.json %}
 {% endhighlight %}
@@ -92,7 +93,8 @@ _Response_
 
 Send the following image recognition request:
 
-_POST /handwriting-recogniser/classify-handwritten-number_
+{: .http-request }
+POST /handwriting-recogniser/classify-handwritten-number
 {% highlight json %}
 {% include handwritten-number-request-zero.json %}
 {% endhighlight %}
