@@ -36,8 +36,8 @@ POST /handwriting-recogniser/classify-handwritten-zero
 Notice that the image is recognised as `0`, with a high probability of
 correctness:
 
-**Response**
-
+{: .http-request }
+Response
 {% highlight json %}
 {% include handwritten-zero-response.json %}
 {% endhighlight %}

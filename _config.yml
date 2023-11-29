@@ -39,6 +39,9 @@ callouts:
     color: red
   note:
     title: Note
+    color: purple
+  important:
+    title: Important
     color: blue
 
 collections:

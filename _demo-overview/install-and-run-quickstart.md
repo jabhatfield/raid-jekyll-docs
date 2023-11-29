@@ -84,7 +84,8 @@ The response is as follows:
 
 {% include data-truncation-note.md %}
 
-_Response_
+{: .http-request }
+Response
 {% highlight json %}
 {% include chat-response.json %}
 {% endhighlight %}
@@ -103,7 +104,8 @@ The response is as follows:
 
 {% include data-truncation-note.md %}
 
-_Response_
+{: .http-request }
+Response
 {% highlight json %}
 {% include handwritten-zero-response.json %}
 {% endhighlight %}
