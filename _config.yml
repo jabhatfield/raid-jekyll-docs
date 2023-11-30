@@ -43,6 +43,8 @@ callouts:
   important:
     title: Important
     color: blue
+  faq:
+    color: yellow
 
 collections:
   # Define a collection named "tests", its documents reside in the "_tests" directory
