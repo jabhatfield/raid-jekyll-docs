@@ -28,10 +28,28 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 aux_links:
-  "Just the Docs on GitHub":
-    - "//github.com/just-the-docs/just-the-docs"
+  "Download":
+    - "//github.com/jon-hatfield-tech-writing/ai-demo"
 aux_links_new_tab: true
 heading_anchors: true
+
+nav_external_links:
+  - title: Apache OpenNLP
+    url: https://opennlp.apache.org
+    hide_icon: false
+    opens_in_new_tab: true
+  - title: Deep Java Library
+    url: https://djl.ai
+    hide_icon: false
+    opens_in_new_tab: true
+  - title: Java
+    url: https://openjdk.org/
+    hide_icon: false
+    opens_in_new_tab: true
+  - title: Git
+    url: https://git-scm.com/downloads
+    hide_icon: false
+    opens_in_new_tab: true
 
 callouts:
   warning:
