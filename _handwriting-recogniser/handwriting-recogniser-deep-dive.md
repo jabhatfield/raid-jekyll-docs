@@ -39,7 +39,7 @@ following occurs:
 # Multilayer perceptron
 
 <figure>
-<img src="/assets/images/mlp-purple.png" alt="MLP" id="mlp-img" />
+<img src="{{ "/assets/images/mlp-purple.png" | absolute_url }}" alt="MLP" id="mlp-img" />
 <figcaption>Figure {{page.img-mlp-index}}. Multilayer perceptron</figcaption>
 </figure>
 
@@ -110,7 +110,7 @@ slope, until the lowest valley is reached. See [Figure {{page.img-gradient-desce
 visualisation of the process.
 
 <figure>
-<img src="/assets/images/gradient-descent.png" alt="Gradient descent" id="gradient-descent-img" />
+<img src="{{ "/assets/images/gradient-descent.png" | absolute_url }}" alt="Gradient descent" id="gradient-descent-img" />
 <figcaption>Figure {{page.img-gradient-descent-index}}. Gradient descent</figcaption>
 </figure>
 
@@ -126,7 +126,7 @@ returns output as equal to the input when the value is positive,
 otherwise it returns zero (see [Figure {{page.img-relu-index}}](#relu-img)).
 
 <figure>
-<img src="/assets/images/relu.png" alt="ReLU" id="relu-img" />
+<img src="{{ "/assets/images/relu.png" | absolute_url }}" alt="ReLU" id="relu-img" />
 <figcaption>Figure {{page.img-relu-index}}. ReLU activation function</figcaption>
 </figure>
 
@@ -136,7 +136,7 @@ that the derivative of ReLU is 0 for negative values and 1 for positive
 values, as illustrated in [Figure {{page.img-relu-derivative-index}}](#relu-derivative-img).
 
 <figure>
-<img src="/assets/images/relu-derivative.png" alt="ReLU derivative" id="relu-derivative-img" />
+<img src="{{ "/assets/images/relu-derivative.png" | absolute_url }}" alt="ReLU derivative" id="relu-derivative-img" />
 <figcaption>Figure {{page.img-relu-derivative-index}}. ReLU derivative</figcaption>
 </figure>
 
@@ -149,7 +149,7 @@ close to 0 for many input values, such as the sigmoid function (see
 [Figure {{page.img-sigmoid-derivative-index}}](#sigmoid-derivative-img)).
 
 <figure>
-<img src="/assets/images/sigmoid-derivative.png" alt="Sigmoid derivative" id="sigmoid-derivative-img" />
+<img src="{{ "/assets/images/sigmoid-derivative.png" | absolute_url }}" alt="Sigmoid derivative" id="sigmoid-derivative-img" />
 <figcaption>Figure {{page.img-sigmoid-derivative-index}}. Sigmoid derivative</figcaption>
 </figure>
 

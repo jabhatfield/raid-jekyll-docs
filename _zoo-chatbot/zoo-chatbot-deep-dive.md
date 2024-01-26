@@ -113,7 +113,7 @@ this uniform distribution and therefore impose no real constraint, since
 the model already exhibits maximum entropy.
 
 <figure>
-<img src="/assets/images/regular-dice-purple.png" alt="Regular dice diagram" id="regular-dice-img" />
+<img src="{{ "/assets/images/regular-dice-purple.png" | absolute_url }}" alt="Regular dice diagram" id="regular-dice-img" />
 <figcaption>Figure {{page.img-regular-dice-index}}. Regular dice with high entropy</figcaption>
 </figure>
 
@@ -125,7 +125,7 @@ illustrated in [Figure {{page.img-regular-dice-index}}](#regular-dice-img), too 
 a vague model of randomness. A realistic weighted dice is somewhere between the two probability distributions.
 
 <figure>
-<img src="/assets/images/unrealistic-weighted-dice-purple.png" alt="Unrealistic dice diagram" id="unrealistic-dice-img" />
+<img src="{{ "/assets/images/unrealistic-weighted-dice-purple.png" | absolute_url }}" alt="Unrealistic dice diagram" id="unrealistic-dice-img" />
 <figcaption>Figure {{page.img-unrealistic-dice-index}}. Unrealistic weighted dice with zero entropy</figcaption>
 </figure>
 
@@ -138,7 +138,7 @@ show trends yet generic enough to include less common outcomes (see
 [Figure {{page.img-realistic-dice-index}}](#realistic-dice-img)).
 
 <figure>
-<img src="/assets/images/realistic-weighted-dice-purple.png" alt="Realistic dice diagram" id="realistic-dice-img" />
+<img src="{{ "/assets/images/realistic-weighted-dice-purple.png" | absolute_url }}" alt="Realistic dice diagram" id="realistic-dice-img" />
 <figcaption>Figure {{page.img-realistic-dice-index}}. Realistic weighted dice with low entropy</figcaption>
 </figure>
 

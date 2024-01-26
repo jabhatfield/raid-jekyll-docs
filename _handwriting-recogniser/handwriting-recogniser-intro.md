@@ -9,7 +9,7 @@ img-handwriting-index: 1
 {: .no_toc }
 
 <figure>
-<img src="/assets/images/handwriting.jpg" alt="Handwriting" />
+<img src="{{ "/assets/images/handwriting.jpg" | absolute_url }}" alt="Handwriting" />
 <figcaption>Figure {{page.img-handwriting-index}}. Photo by <a href="https://unsplash.com/@fioreale" target="_blank">
 Alessio Fiorentino</a> 
 on <a href="https://unsplash.com/photos/MiNq1Mjikfw" target="_blank">Unsplash</a>

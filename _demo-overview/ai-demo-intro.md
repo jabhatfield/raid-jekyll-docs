@@ -12,7 +12,7 @@ img-definitions-index: 2
 {: .no_toc }
 
 <figure>
-<img src="/assets/images/brain.jpg" alt="Brain neural network" />
+<img src="{{ "/assets/images/brain.jpg" | absolute_url }}" alt="Brain neural network" />
 <figcaption>Figure {{page.img-brain-index}}. Photo by <a href="https://unsplash.com/@growtika" target="_blank">Growtika</a> 
 on <a href="https://unsplash.com/photos/f0JGorLOkw0" target="_blank">Unsplash</a>
 </figcaption>
@@ -41,7 +41,7 @@ handwritten digits, based on [Deep Java Library](https://djl.ai){:target="_blank
 ML is a subset of AI and DL is a subset of ML:
 
 <figure>
-<img src="/assets/images/ai-ml-dl-purple.png" alt="AI vs ML vs DL" />
+<img src="{{ "/assets/images/ai-ml-dl-purple.png" | absolute_url }}" alt="AI vs ML vs DL" />
 <figcaption>Figure {{page.img-definitions-index}}. AI vs. ML vs. DL</figcaption>
 </figure>
 
