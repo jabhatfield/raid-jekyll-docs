@@ -1,0 +1,849 @@
+{"0": {
+    "doc": "Introduction",
+    "title": "RESTful AI Demo",
+    "content": "Figure 1. Photo by Growtika on Unsplash ",
+    "url": "/raid-jekyll-docs/demo-overview/ai-demo-intro/#restful-ai-demo",
+    
+    "relUrl": "/demo-overview/ai-demo-intro/#restful-ai-demo"
+  },"1": {
+    "doc": "Introduction",
+    "title": "Table of contents",
+    "content": ". | Introduction | Definitions of machine learning and deep learning . | Machine learning | Deep learning | . | . ",
+    "url": "/raid-jekyll-docs/demo-overview/ai-demo-intro/#table-of-contents",
+    
+    "relUrl": "/demo-overview/ai-demo-intro/#table-of-contents"
+  },"2": {
+    "doc": "Introduction",
+    "title": "Introduction",
+    "content": "RESTful AI Demo (RAID) is a simple set of APIs for learning machine learning (ML) and deep learning (DL). It is written in Java Spring Boot and consists of two components: . | Zoo Chatbot (ML): enquires about a zoo, based on Apache OpenNLP natural language processing (NLP). | Handwriting Recogniser (DL): recognition of handwritten digits, based on Deep Java Library (DJL) image recognition. | . ",
+    "url": "/raid-jekyll-docs/demo-overview/ai-demo-intro/",
+    
+    "relUrl": "/demo-overview/ai-demo-intro/"
+  },"3": {
+    "doc": "Introduction",
+    "title": "Definitions of machine learning and deep learning",
+    "content": "ML is a subset of AI and DL is a subset of ML: . Figure 2. AI vs. ML vs. DL ",
+    "url": "/raid-jekyll-docs/demo-overview/ai-demo-intro/#definitions-of-machine-learning-and-deep-learning",
+    
+    "relUrl": "/demo-overview/ai-demo-intro/#definitions-of-machine-learning-and-deep-learning"
+  },"4": {
+    "doc": "Introduction",
+    "title": "Machine learning",
+    "content": ". | Typically involves providing an algorithm with example input and corresponding output data, then letting the algorithm run iteratively to learn the nature of these mappings . | Iteratively adjusts its parameters and compares its calculated output, derived from the input, to the defined output . | Once the model is trained in this manner it can predict the classification of relevant input . | . ",
+    "url": "/raid-jekyll-docs/demo-overview/ai-demo-intro/#machine-learning",
+    
+    "relUrl": "/demo-overview/ai-demo-intro/#machine-learning"
+  },"5": {
+    "doc": "Introduction",
+    "title": "Deep learning",
+    "content": ". | Similar to ML in that it also learns through an iterative algorithm . | Typically uses much more input data and stores its calculations in a neural network structure . | The data and relationships of data are stored as nodes and weighted vectors . | Powerful enough to learn on its own, without provision of example output . | . For a deeper understanding of the inner workings of ML and DL, see these deep dives: . | Zoo Chatbot deep dive . | Handwriting Recogniser deep dive . | . ",
+    "url": "/raid-jekyll-docs/demo-overview/ai-demo-intro/#deep-learning",
+    
+    "relUrl": "/demo-overview/ai-demo-intro/#deep-learning"
+  },"6": {
+    "doc": "API specification",
+    "title": "API specification",
+    "content": "RAID uses Swagger to implement the OpenAPI Specification. ",
+    "url": "/raid-jekyll-docs/demo-overview/api-spec/",
+    
+    "relUrl": "/demo-overview/api-spec/"
+  },"7": {
+    "doc": "API specification",
+    "title": "Table of contents",
+    "content": ". | Swagger UI . | Run examples | . | Error codes | . ",
+    "url": "/raid-jekyll-docs/demo-overview/api-spec/#table-of-contents",
+    
+    "relUrl": "/demo-overview/api-spec/#table-of-contents"
+  },"8": {
+    "doc": "API specification",
+    "title": "Swagger UI",
+    "content": "Perform the following steps to view the API via the Swagger UI: . | Run the application locally by following the Install and run quickstart. | Go to http://localhost:8080/swagger-ui/index.html. | . ",
+    "url": "/raid-jekyll-docs/demo-overview/api-spec/#swagger-ui",
+    
+    "relUrl": "/demo-overview/api-spec/#swagger-ui"
+  },"9": {
+    "doc": "API specification",
+    "title": "Run examples",
+    "content": "The Swagger specification includes examples that can be run within the Swagger UI: . | Click on an API endpoint to expand it. | Click Try it out. | Click Execute to run the prepopulated example. | Scroll down to view the response. | . ",
+    "url": "/raid-jekyll-docs/demo-overview/api-spec/#run-examples",
+    
+    "relUrl": "/demo-overview/api-spec/#run-examples"
+  },"10": {
+    "doc": "API specification",
+    "title": "Error codes",
+    "content": "The Swagger specification includes the following error information: . | The structure of the JSON error response, which is standardized across all endpoints . | An example HTTP 400 response for each endpoint, where applicable due to the presence of input data . | An example HTTP 500 response for each endpoint . | . See the table below for a full list of possible errors: . | RAID error code | HTTP status code | Error message example | Zoo Chatbot | Handwriting recogniser | . | 001_MISSING_FIELD | 400 Bad Request | Field ‘message’ is required | | | . | 002_EMPTY_ARRAY | 400 Bad Request | Array ‘tokens’ must be populated | | | . | 003_MISSING_IMAGE_FILE | 500 Internal Server Error | Image file ‘10.png’ not found. Check the src/main/resources folder | | | . | 100_UNKNOWN_ERROR | 500 Internal Server Error | Cannot invoke “String.toString()” because “response” is null. See log for details | | | . ",
+    "url": "/raid-jekyll-docs/demo-overview/api-spec/#error-codes",
+    
+    "relUrl": "/demo-overview/api-spec/#error-codes"
+  },"11": {
+    "doc": "Install and run quickstart",
+    "title": "Install and run quickstart",
+    "content": "Follow this quickstart to achieve the following operations: . | Send a chat message to the Zoo Chatbot and receive an answer. | Send an image of a handwritten number to the Handwriting Recogniser and receive its numerical value. | . ",
+    "url": "/raid-jekyll-docs/demo-overview/install-and-run-quickstart/",
+    
+    "relUrl": "/demo-overview/install-and-run-quickstart/"
+  },"12": {
+    "doc": "Install and run quickstart",
+    "title": "Table of contents",
+    "content": ". | Prerequisites | Build . | Build with an IDE | Build with the command line | . | Run . | Run with an IDE | Run with the command line | . | Use the RESTful API . | Send a chat message | Send an image of a handwritten number | . | Learn more | . ",
+    "url": "/raid-jekyll-docs/demo-overview/install-and-run-quickstart/#table-of-contents",
+    
+    "relUrl": "/demo-overview/install-and-run-quickstart/#table-of-contents"
+  },"13": {
+    "doc": "Install and run quickstart",
+    "title": "Prerequisites",
+    "content": ". | Java version 17 or higher. OpenJDK downloaded via SDKMAN! is recommended . | Git . | . ",
+    "url": "/raid-jekyll-docs/demo-overview/install-and-run-quickstart/#prerequisites",
+    
+    "relUrl": "/demo-overview/install-and-run-quickstart/#prerequisites"
+  },"14": {
+    "doc": "Install and run quickstart",
+    "title": "Build",
+    "content": "Clone the code from GitHub then use an IDE or the command line to continue. ",
+    "url": "/raid-jekyll-docs/demo-overview/install-and-run-quickstart/#build",
+    
+    "relUrl": "/demo-overview/install-and-run-quickstart/#build"
+  },"15": {
+    "doc": "Install and run quickstart",
+    "title": "Build with an IDE",
+    "content": "Import the code as a Java project. IntelliJ is recommended. RAID uses Lombok to reduce boilerplate code. Ensure that the IDE has a Lombok plugin and that annotation processing is enabled. ",
+    "url": "/raid-jekyll-docs/demo-overview/install-and-run-quickstart/#build-with-an-ide",
+    
+    "relUrl": "/demo-overview/install-and-run-quickstart/#build-with-an-ide"
+  },"16": {
+    "doc": "Install and run quickstart",
+    "title": "Build with the command line",
+    "content": "Go into the project root folder and build an executable JAR as follows: . $ ./gradlew bootJar . ",
+    "url": "/raid-jekyll-docs/demo-overview/install-and-run-quickstart/#build-with-the-command-line",
+    
+    "relUrl": "/demo-overview/install-and-run-quickstart/#build-with-the-command-line"
+  },"17": {
+    "doc": "Install and run quickstart",
+    "title": "Run",
+    "content": "Ensure RAID is built then run it with an IDE or the command line. ",
+    "url": "/raid-jekyll-docs/demo-overview/install-and-run-quickstart/#run",
+    
+    "relUrl": "/demo-overview/install-and-run-quickstart/#run"
+  },"18": {
+    "doc": "Install and run quickstart",
+    "title": "Run with an IDE",
+    "content": "Open AIDemoApplication.java and run the main method using the IDE Play button. ",
+    "url": "/raid-jekyll-docs/demo-overview/install-and-run-quickstart/#run-with-an-ide",
+    
+    "relUrl": "/demo-overview/install-and-run-quickstart/#run-with-an-ide"
+  },"19": {
+    "doc": "Install and run quickstart",
+    "title": "Run with the command line",
+    "content": "Go into the project root folder and run the executable JAR as follows: . $ java -jar build/libs/demo-0.0.1-SNAPSHOT.jar . ",
+    "url": "/raid-jekyll-docs/demo-overview/install-and-run-quickstart/#run-with-the-command-line",
+    
+    "relUrl": "/demo-overview/install-and-run-quickstart/#run-with-the-command-line"
+  },"20": {
+    "doc": "Install and run quickstart",
+    "title": "Use the RESTful API",
+    "content": "Access the API on the root context path /: . http://localhost:8080/ . The easiest way to call the API operations is to use the Swagger UI. Alternatively, use Postman or curl and ensure that the Content-Type header is set to application/json. ",
+    "url": "/raid-jekyll-docs/demo-overview/install-and-run-quickstart/#use-the-restful-api",
+    
+    "relUrl": "/demo-overview/install-and-run-quickstart/#use-the-restful-api"
+  },"21": {
+    "doc": "Install and run quickstart",
+    "title": "Send a chat message",
+    "content": "Send the following chat request: . POST /zoo-chatbot/chat . { \"message\": \"any giraffes?\" } . The response is as follows: . Data is truncated for readability. Response . { \"category\": \"animal-list\", \"reply\": \"The zoo has 10 giraffes, 3 elephants, 2 lions and 12 penguins\", \"probabilities\": [ { \"category\": \"animal-list\", \"probability\": 0.6893424773 }, { \"category\": \"directions\", \"probability\": 0.0776643807 }, { \"category\": \"opening-times\", \"probability\": 0.0776643807 } ] } . ",
+    "url": "/raid-jekyll-docs/demo-overview/install-and-run-quickstart/#send-a-chat-message",
+    
+    "relUrl": "/demo-overview/install-and-run-quickstart/#send-a-chat-message"
+  },"22": {
+    "doc": "Install and run quickstart",
+    "title": "Send an image of a handwritten number",
+    "content": "Send the following image recognition request: . POST /handwriting-recogniser/classify-handwritten-number . { \"fileName\": \"0.png\" } . The response is as follows: . Data is truncated for readability. Response . { \"handwrittenNumber\": \"0\", \"probabilities\": [ { \"handwrittenNumber\": \"0\", \"probability\": 0.9999525547 }, { \"handwrittenNumber\": \"2\", \"probability\": 0.0000418071 }, { \"handwrittenNumber\": \"6\", \"probability\": 0.0000029869 } ] } . ",
+    "url": "/raid-jekyll-docs/demo-overview/install-and-run-quickstart/#send-an-image-of-a-handwritten-number",
+    
+    "relUrl": "/demo-overview/install-and-run-quickstart/#send-an-image-of-a-handwritten-number"
+  },"23": {
+    "doc": "Install and run quickstart",
+    "title": "Learn more",
+    "content": ". | See the Zoo Chatbot tutorial to learn all the Zoo Chatbot operations. | See the Handwriting Recogniser tutorial to learn all the Handwriting Recogniser operations. | See the API specification for the full specification. | . ",
+    "url": "/raid-jekyll-docs/demo-overview/install-and-run-quickstart/#learn-more",
+    
+    "relUrl": "/demo-overview/install-and-run-quickstart/#learn-more"
+  },"24": {
+    "doc": "Deep dive",
+    "title": "Handwriting Recogniser deep dive",
+    "content": "This deep dive outlines the main concepts of the Handwriting Recogniser inner workings. ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/handwriting-recogniser-deep-dive/#handwriting-recogniser-deep-dive",
+    
+    "relUrl": "/handwriting-recogniser/handwriting-recogniser-deep-dive/#handwriting-recogniser-deep-dive"
+  },"25": {
+    "doc": "Deep dive",
+    "title": "Table of contents",
+    "content": ". | Neural networks | Multilayer perceptron | Feedforward processing | Backpropagation | Gradient descent | Rectified Linear Unit activation function | Softmax activation function | Learn more | . ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/handwriting-recogniser-deep-dive/#table-of-contents",
+    
+    "relUrl": "/handwriting-recogniser/handwriting-recogniser-deep-dive/#table-of-contents"
+  },"26": {
+    "doc": "Deep dive",
+    "title": "Neural networks",
+    "content": "A neural network is an artificial representation of the human brain. It comprises computational nodes and their weighted interconnections, analogous to neurons and synapses. Input data flows though layers of nodes, with node output determined by incoming weights plus a mathematical function called an activation function. Prior to user input, weights are randomly initialized and iteratively trained on training data, to refine the model, until one of the following occurs: . | The training algorithm converges, meaning it reaches a stable value. | The specified number of iterations is reached. | . ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/handwriting-recogniser-deep-dive/#neural-networks",
+    
+    "relUrl": "/handwriting-recogniser/handwriting-recogniser-deep-dive/#neural-networks"
+  },"27": {
+    "doc": "Deep dive",
+    "title": "Multilayer perceptron",
+    "content": "Figure 1. Multilayer perceptron Handwriting Recogniser implements a multilayer perceptron (MLP) neural network trained on the MNIST database of handwritten numbers. An MLP consists of multiple layers, as illustrated in Figure 1: . | Input layer: contains the input data . | Hidden layer: calculates output to the next layer . | Output layer: calculates the result . | . The hidden layer is the core of the network. It contains the functions that activate nodes and recalculate weights. The network can have multiple hidden layers, depending on the complexity of its functionality. The MLP has the following characteristics, which are explained in following sections: . | Feedforward processing . | Backpropagation . | Gradient descent . | Rectified Linear Unit activation function . | Softmax activation function . | . ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/handwriting-recogniser-deep-dive/#multilayer-perceptron",
+    
+    "relUrl": "/handwriting-recogniser/handwriting-recogniser-deep-dive/#multilayer-perceptron"
+  },"28": {
+    "doc": "Deep dive",
+    "title": "Feedforward processing",
+    "content": "In a feedforward neural network, information flows in one direction, from input towards output. This design suits classification tasks, such as image recognition, because it allows an independent variable (the input to classify) to map to specified dependent variables (output classification options). The alternative to feedforward is recurrent neural networks, whereby information can flow in loops. This allows memory within the network, making these networks suited for processing sequential data that relies on prior input, such as speech recognition data. ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/handwriting-recogniser-deep-dive/#feedforward-processing",
+    
+    "relUrl": "/handwriting-recogniser/handwriting-recogniser-deep-dive/#feedforward-processing"
+  },"29": {
+    "doc": "Deep dive",
+    "title": "Backpropagation",
+    "content": "The neural network uses its state, in terms of weights, to predict an outcome. During training, the discrepancy between predicted and actual outcome is calculated by a loss function, which is a mathematical representation of error, and this error must be minimised in order to optimise the network. Backpropagation is the calculation of the rate of change, or derivative, of the loss function, for each weight. Since a derivative indicates the direction in which a function increases, the negative of the derivative is used to indicate the direction of loss function minimisation and therefore optimisation. Backpropagation only ascertains how to optimise the network, it does not perform the optimisation itself. Gradient descent performs the optimisation. ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/handwriting-recogniser-deep-dive/#backpropagation",
+    
+    "relUrl": "/handwriting-recogniser/handwriting-recogniser-deep-dive/#backpropagation"
+  },"30": {
+    "doc": "Deep dive",
+    "title": "Gradient descent",
+    "content": "Gradient descent is an algorithm that descends the gradient defined by backpropagation. It amends the network weights iteratively until the loss function is minimised. This is analogous to descending a mountain peak, in steps, in the direction of the steepest slope, until the lowest valley is reached. See Figure 2 for a visualisation of the process. Figure 2. Gradient descent ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/handwriting-recogniser-deep-dive/#gradient-descent",
+    
+    "relUrl": "/handwriting-recogniser/handwriting-recogniser-deep-dive/#gradient-descent"
+  },"31": {
+    "doc": "Deep dive",
+    "title": "Rectified Linear Unit activation function",
+    "content": "An activation function calculates node output based on the input. If the output exceeds a defined threshold, the node is activated and passes data onwards through its outward connections. Activation functions are typically non-linear in order to introduce variance and therefore learn; a linear function would simply propagate input. Handwriting Recogniser uses the Rectified Linear Unit (ReLU) activation function, which returns output as equal to the input when the value is positive, otherwise it returns zero (see Figure 3). Figure 3. ReLU activation function The activation function is also involved in the backpropagation derivative calculations. Notice that the derivative of ReLU is 0 for negative values and 1 for positive values, as illustrated in Figure 4. Figure 4. ReLU derivative The derivative of the activation function is important for preventing the vanishing gradient problem, whereby the backpropagation derivatives prematurely approach 0 during gradient descent, causing the network to learn slowly or not at all. Vanishing gradients occur when implementing an activation function with derivatives that are close to 0 for many input values, such as the sigmoid function (see Figure 5). Figure 5. Sigmoid derivative Compare the ReLU derivatives in Figure 4 with the sigmoid derivatives in Figure 5. Notice how ReLU has a wider selection of weights that result in significant derivatives (close to 1). ReLU is therefore more likely to make progress during gradient descent and reach an optimal solution. ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/handwriting-recogniser-deep-dive/#rectified-linear-unit-activation-function",
+    
+    "relUrl": "/handwriting-recogniser/handwriting-recogniser-deep-dive/#rectified-linear-unit-activation-function"
+  },"32": {
+    "doc": "Deep dive",
+    "title": "Softmax activation function",
+    "content": "The softmax function is used in the final layer of the network, instead of the ReLU activation function, to output the result. It normalises the output values to probabilities of correctness between 0 and 1. These probabilities sum up to 1 and can therefore be regarded as percentages. ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/handwriting-recogniser-deep-dive/#softmax-activation-function",
+    
+    "relUrl": "/handwriting-recogniser/handwriting-recogniser-deep-dive/#softmax-activation-function"
+  },"33": {
+    "doc": "Deep dive",
+    "title": "Learn more",
+    "content": ". | See the Handwriting Recogniser tutorial for a practical guide of operations. | See the API specification for the full specification. | . Loading… ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/handwriting-recogniser-deep-dive/#learn-more",
+    
+    "relUrl": "/handwriting-recogniser/handwriting-recogniser-deep-dive/#learn-more"
+  },"34": {
+    "doc": "Deep dive",
+    "title": "Deep dive",
+    "content": " ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/handwriting-recogniser-deep-dive/",
+    
+    "relUrl": "/handwriting-recogniser/handwriting-recogniser-deep-dive/"
+  },"35": {
+    "doc": "FAQ",
+    "title": "Handwriting Recogniser FAQ",
+    "content": " ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/handwriting-recogniser-faq/#handwriting-recogniser-faq",
+    
+    "relUrl": "/handwriting-recogniser/handwriting-recogniser-faq/#handwriting-recogniser-faq"
+  },"36": {
+    "doc": "FAQ",
+    "title": "Table of contents",
+    "content": ". | Getting started | API | Inner workings | . ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/handwriting-recogniser-faq/#table-of-contents",
+    
+    "relUrl": "/handwriting-recogniser/handwriting-recogniser-faq/#table-of-contents"
+  },"37": {
+    "doc": "FAQ",
+    "title": "Getting started",
+    "content": "How do I run Handwriting Recogniser? See the Install and run quickstart. Are there any prerequisites? See the Install and run quickstart &gt; Prerequisites. How do I learn about image recognition? See the Handwriting Recogniser deep dive. ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/handwriting-recogniser-faq/#getting-started",
+    
+    "relUrl": "/handwriting-recogniser/handwriting-recogniser-faq/#getting-started"
+  },"38": {
+    "doc": "FAQ",
+    "title": "API",
+    "content": "How do I learn the API? See the Handwriting Recogniser tutorial. Where is the full API specification? See the API specification. Can I classify my own image? Yes. See Classify a handwritten number &gt; Custom request. ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/handwriting-recogniser-faq/#api",
+    
+    "relUrl": "/handwriting-recogniser/handwriting-recogniser-faq/#api"
+  },"39": {
+    "doc": "FAQ",
+    "title": "Inner workings",
+    "content": "Which language is Handwriting Recogniser written in? Handwriting Recogniser is written in Java and implements the Spring Boot framework. How does Handwriting Recogniser work internally? See the Handwriting Recogniser deep dive. What kind of data is Handwriting Recogniser based on? Handwriting Recogniser is trained on the MNIST database of handwritten digits. ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/handwriting-recogniser-faq/#inner-workings",
+    
+    "relUrl": "/handwriting-recogniser/handwriting-recogniser-faq/#inner-workings"
+  },"40": {
+    "doc": "FAQ",
+    "title": "FAQ",
+    "content": " ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/handwriting-recogniser-faq/",
+    
+    "relUrl": "/handwriting-recogniser/handwriting-recogniser-faq/"
+  },"41": {
+    "doc": "Introduction",
+    "title": "Handwriting Recogniser",
+    "content": "Figure 1. Photo by Alessio Fiorentino on Unsplash ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/handwriting-recogniser-intro/#handwriting-recogniser",
+    
+    "relUrl": "/handwriting-recogniser/handwriting-recogniser-intro/#handwriting-recogniser"
+  },"42": {
+    "doc": "Introduction",
+    "title": "Table of contents",
+    "content": ". | Introduction | Get started | . ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/handwriting-recogniser-intro/#table-of-contents",
+    
+    "relUrl": "/handwriting-recogniser/handwriting-recogniser-intro/#table-of-contents"
+  },"43": {
+    "doc": "Introduction",
+    "title": "Introduction",
+    "content": "Handwriting Recogniser implements DJL to train a neural network on images of handwritten numbers within the range of 0-9. It can then generate the probabilities of an input image matching each of these numbers. ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/handwriting-recogniser-intro/",
+    
+    "relUrl": "/handwriting-recogniser/handwriting-recogniser-intro/"
+  },"44": {
+    "doc": "Introduction",
+    "title": "Get started",
+    "content": "See one or more of the following ways to get started, depending on preference of learning approach: . | Perform the Install and run quickstart to run Handwriting Recogniser. | Complete the Handwriting Recogniser tutorial to gain practical experience of the API. | Read the Handwriting Recogniser deep dive to gain a deeper theoretical understanding of the chatbot. | See the API specification for fine details of the API. | . ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/handwriting-recogniser-intro/#get-started",
+    
+    "relUrl": "/handwriting-recogniser/handwriting-recogniser-intro/#get-started"
+  },"45": {
+    "doc": "Classify a handwritten number",
+    "title": "Classify a handwritten number",
+    "content": "This endpoint classifies any image of a handwritten number that conforms to the image format. A neural network trained on the MNIST database of handwritten digits performs the classification. The first invocation of Classify a handwritten zero or Classify a handwritten number trains the image recognition model, which takes approximately 10 - 20 seconds. The model is then cached for efficient subsequent invocations. Observe the training delay in the logs: . Training: 100% |████████████████████████████████████████| Epoch 1 finished. Training: 100% |████████████████████████████████████████| Epoch 2 finished. ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/tutorial/classify-handwritten-number/",
+    
+    "relUrl": "/handwriting-recogniser/tutorial/classify-handwritten-number/"
+  },"46": {
+    "doc": "Classify a handwritten number",
+    "title": "Table of contents",
+    "content": ". | Handwritten-zero request | Response | Ambiguous request | Response | Custom request . | Image format | Request body | . | Response | . ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/tutorial/classify-handwritten-number/#table-of-contents",
+    
+    "relUrl": "/handwriting-recogniser/tutorial/classify-handwritten-number/#table-of-contents"
+  },"47": {
+    "doc": "Classify a handwritten number",
+    "title": "Handwritten-zero request",
+    "content": "Send the following request to explicitly process the same image processed by the Classify a handwritten zero endpoint : . POST /handwriting-recogniser/classify-handwritten-number . { \"fileName\": \"0.png\" } . ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/tutorial/classify-handwritten-number/#handwritten-zero-request",
+    
+    "relUrl": "/handwriting-recogniser/tutorial/classify-handwritten-number/#handwritten-zero-request"
+  },"48": {
+    "doc": "Classify a handwritten number",
+    "title": "Response",
+    "content": "Data is truncated for readability. Notice that the image is recognised as 0, with a high probability of correctness: . Response . { \"handwrittenNumber\": \"0\", \"probabilities\": [ { \"handwrittenNumber\": \"0\", \"probability\": 0.9999525547 }, { \"handwrittenNumber\": \"2\", \"probability\": 0.0000418071 }, { \"handwrittenNumber\": \"6\", \"probability\": 0.0000029869 } ] } . ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/tutorial/classify-handwritten-number/#response",
+    
+    "relUrl": "/handwriting-recogniser/tutorial/classify-handwritten-number/#response"
+  },"49": {
+    "doc": "Classify a handwritten number",
+    "title": "Ambiguous request",
+    "content": "Send the following request to process an ambiguous image of a three that looks like an eight : . POST /handwriting-recogniser/classify-handwritten-number . { \"fileName\": \"3-that-looks-like-8.png\" } . ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/tutorial/classify-handwritten-number/#ambiguous-request",
+    
+    "relUrl": "/handwriting-recogniser/tutorial/classify-handwritten-number/#ambiguous-request"
+  },"50": {
+    "doc": "Classify a handwritten number",
+    "title": "Response",
+    "content": "Data is truncated for readability. Notice that the image is recognised as 3, with a lower probability of correctness than the less ambiguous handwritten zero. Also notice that the second most probable match is 8: . Response . { \"handwrittenNumber\": \"3\", \"probabilities\": [ { \"handwrittenNumber\": \"3\", \"probability\": 0.6336861849 }, { \"handwrittenNumber\": \"8\", \"probability\": 0.2507479191 }, { \"handwrittenNumber\": \"2\", \"probability\": 0.0491732359 } ] } . ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/tutorial/classify-handwritten-number/#response-1",
+    
+    "relUrl": "/handwriting-recogniser/tutorial/classify-handwritten-number/#response-1"
+  },"51": {
+    "doc": "Classify a handwritten number",
+    "title": "Custom request",
+    "content": "Create a new image to experiment with the image recognition capabilities. ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/tutorial/classify-handwritten-number/#custom-request",
+    
+    "relUrl": "/handwriting-recogniser/tutorial/classify-handwritten-number/#custom-request"
+  },"52": {
+    "doc": "Classify a handwritten number",
+    "title": "Image format",
+    "content": "The image format is based on the MNIST database format. Images must have the following properties: . | Resemble a number from zero to nine | Written in white with a black background | Sized 28x28 pixels | PNG format | . Place the image in the images source folder: src/main/resources/images. Stop, recompile and restart the application for the new image to be registered. As per the Install and run quickstart, this involves one of the following: . | Restart the application in the IDE. | Rebuild and rerun the JAR file. | . Verify registration via the List example input images endpoint. ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/tutorial/classify-handwritten-number/#image-format",
+    
+    "relUrl": "/handwriting-recogniser/tutorial/classify-handwritten-number/#image-format"
+  },"53": {
+    "doc": "Classify a handwritten number",
+    "title": "Request body",
+    "content": "Send a request structured as per the handwritten-zero request, substituting fileName with the name of the created image. ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/tutorial/classify-handwritten-number/#request-body",
+    
+    "relUrl": "/handwriting-recogniser/tutorial/classify-handwritten-number/#request-body"
+  },"54": {
+    "doc": "Classify a handwritten number",
+    "title": "Response",
+    "content": "Expect a response structured as per the handwritten-zero response. Notice that the legibility of the handwritten number corresponds to the probability of correctness. | Tutorial | Classify a handwritten number | . ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/tutorial/classify-handwritten-number/#response-2",
+    
+    "relUrl": "/handwriting-recogniser/tutorial/classify-handwritten-number/#response-2"
+  },"55": {
+    "doc": "Classify a handwritten zero",
+    "title": "Classify a handwritten zero",
+    "content": "This endpoint classifies an image of a handwritten zero that has been provided by DJL. A neural network trained on the MNIST database of handwritten digits performs the classification. The first invocation of Classify a handwritten zero or Classify a handwritten number trains the image recognition model, which takes approximately 10 - 20 seconds. The model is then cached for efficient subsequent invocations. Observe the training delay in the logs: . Training: 100% |████████████████████████████████████████| Epoch 1 finished. Training: 100% |████████████████████████████████████████| Epoch 2 finished. ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/tutorial/classify-handwritten-zero/",
+    
+    "relUrl": "/handwriting-recogniser/tutorial/classify-handwritten-zero/"
+  },"56": {
+    "doc": "Classify a handwritten zero",
+    "title": "Table of contents",
+    "content": ". | Request | Response | . ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/tutorial/classify-handwritten-zero/#table-of-contents",
+    
+    "relUrl": "/handwriting-recogniser/tutorial/classify-handwritten-zero/#table-of-contents"
+  },"57": {
+    "doc": "Classify a handwritten zero",
+    "title": "Request",
+    "content": "Send the following empty POST request: . POST /handwriting-recogniser/classify-handwritten-zero . ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/tutorial/classify-handwritten-zero/#request",
+    
+    "relUrl": "/handwriting-recogniser/tutorial/classify-handwritten-zero/#request"
+  },"58": {
+    "doc": "Classify a handwritten zero",
+    "title": "Response",
+    "content": "Data is truncated for readability. Notice that the image is recognised as 0, with a high probability of correctness: . Response . { \"handwrittenNumber\": \"0\", \"probabilities\": [ { \"handwrittenNumber\": \"0\", \"probability\": 0.9999525547 }, { \"handwrittenNumber\": \"2\", \"probability\": 0.0000418071 }, { \"handwrittenNumber\": \"6\", \"probability\": 0.0000029869 } ] } . | Tutorial | Classify a handwritten zero | . ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/tutorial/classify-handwritten-zero/#response",
+    
+    "relUrl": "/handwriting-recogniser/tutorial/classify-handwritten-zero/#response"
+  },"59": {
+    "doc": "Tutorial",
+    "title": "Handwriting Recogniser tutorial",
+    "content": "Learn to use all the Handwriting Recogniser APIs. ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/tutorial/handwriting-recogniser-tutorial/#handwriting-recogniser-tutorial",
+    
+    "relUrl": "/handwriting-recogniser/tutorial/handwriting-recogniser-tutorial/#handwriting-recogniser-tutorial"
+  },"60": {
+    "doc": "Tutorial",
+    "title": "Table of contents",
+    "content": ". | Learning objectives | Prerequisites | . ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/tutorial/handwriting-recogniser-tutorial/#table-of-contents",
+    
+    "relUrl": "/handwriting-recogniser/tutorial/handwriting-recogniser-tutorial/#table-of-contents"
+  },"61": {
+    "doc": "Tutorial",
+    "title": "Learning objectives",
+    "content": "This tutorial will teach you the following operations: . | Classify a handwritten zero provided by DJL. | Classify a variety of custom-made handwritten numbers. | List all the images available for classification. | . ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/tutorial/handwriting-recogniser-tutorial/#learning-objectives",
+    
+    "relUrl": "/handwriting-recogniser/tutorial/handwriting-recogniser-tutorial/#learning-objectives"
+  },"62": {
+    "doc": "Tutorial",
+    "title": "Prerequisites",
+    "content": "Run the application locally by following the Install and run quickstart. ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/tutorial/handwriting-recogniser-tutorial/#prerequisites",
+    
+    "relUrl": "/handwriting-recogniser/tutorial/handwriting-recogniser-tutorial/#prerequisites"
+  },"63": {
+    "doc": "Tutorial",
+    "title": "Tutorial",
+    "content": " ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/tutorial/handwriting-recogniser-tutorial/",
+    
+    "relUrl": "/handwriting-recogniser/tutorial/handwriting-recogniser-tutorial/"
+  },"64": {
+    "doc": "List example input images",
+    "title": "List example input images",
+    "content": "This endpoint returns the names of the example images available for classification. ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/tutorial/list-example-input-images/",
+    
+    "relUrl": "/handwriting-recogniser/tutorial/list-example-input-images/"
+  },"65": {
+    "doc": "List example input images",
+    "title": "Table of contents",
+    "content": ". | Request | Response | . ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/tutorial/list-example-input-images/#table-of-contents",
+    
+    "relUrl": "/handwriting-recogniser/tutorial/list-example-input-images/#table-of-contents"
+  },"66": {
+    "doc": "List example input images",
+    "title": "Request",
+    "content": "Send the following request: . GET /handwriting-recogniser/example-input-images . ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/tutorial/list-example-input-images/#request",
+    
+    "relUrl": "/handwriting-recogniser/tutorial/list-example-input-images/#request"
+  },"67": {
+    "doc": "List example input images",
+    "title": "Response",
+    "content": "Notice that the image names correspond to fileName in the Classify a handwritten number example requests: . Response . { \"images\": [ \"0.png\", \"1.png\", \"2.png\", \"3-that-looks-like-8.png\", \"3.png\" ] } . | Tutorial | List example input images | . ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/tutorial/list-example-input-images/#response",
+    
+    "relUrl": "/handwriting-recogniser/tutorial/list-example-input-images/#response"
+  },"68": {
+    "doc": "Summary",
+    "title": "Summary",
+    "content": "Congratulations! You have learnt to use the set of Handwriting Recogniser API operations and have a basic understanding of them. See the API specification for more details and the deep dive for a deeper understanding of the Handwriting Recogniser inner workings. Loading… . | Tutorial | Summary | . ",
+    "url": "/raid-jekyll-docs/handwriting-recogniser/tutorial/summary/",
+    
+    "relUrl": "/handwriting-recogniser/tutorial/summary/"
+  },"69": {
+    "doc": "Tutorial",
+    "title": "Zoo Chatbot tutorial",
+    "content": "Learn to use all the Zoo Chatbot APIs. ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/tutorial/chat-tutorial/#zoo-chatbot-tutorial",
+    
+    "relUrl": "/zoo-chatbot/tutorial/chat-tutorial/#zoo-chatbot-tutorial"
+  },"70": {
+    "doc": "Tutorial",
+    "title": "Table of contents",
+    "content": ". | Learning objectives | Prerequisites | . ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/tutorial/chat-tutorial/#table-of-contents",
+    
+    "relUrl": "/zoo-chatbot/tutorial/chat-tutorial/#table-of-contents"
+  },"71": {
+    "doc": "Tutorial",
+    "title": "Learning objectives",
+    "content": "This tutorial will teach you the following operations: . | Tokenize a message. | Tag a tokenized message with part-of-speech tags. | Lemmatize a tokenized message. | Send a chat message and receive a suitable reply. | List all possible chat responses. | List the lemmatized data used for training the chatbot. | . ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/tutorial/chat-tutorial/#learning-objectives",
+    
+    "relUrl": "/zoo-chatbot/tutorial/chat-tutorial/#learning-objectives"
+  },"72": {
+    "doc": "Tutorial",
+    "title": "Prerequisites",
+    "content": "Run the application locally by following the Install and run quickstart. ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/tutorial/chat-tutorial/#prerequisites",
+    
+    "relUrl": "/zoo-chatbot/tutorial/chat-tutorial/#prerequisites"
+  },"73": {
+    "doc": "Tutorial",
+    "title": "Tutorial",
+    "content": " ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/tutorial/chat-tutorial/",
+    
+    "relUrl": "/zoo-chatbot/tutorial/chat-tutorial/"
+  },"74": {
+    "doc": "Chat",
+    "title": "Chat",
+    "content": "The chat endpoint uses all the previous techniques to prepare a message: . | Tokenization | Part-of-speech tagging | Lemmatization | . The chatbot is then trained on lemmatized classification data, which maps various potential input expressions to a set of possible chat responses. Finally, the endpoint replies with the most probable response from the set of possible responses. ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/tutorial/chat/",
+    
+    "relUrl": "/zoo-chatbot/tutorial/chat/"
+  },"75": {
+    "doc": "Chat",
+    "title": "Table of contents",
+    "content": ". | Example request | Response | . ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/tutorial/chat/#table-of-contents",
+    
+    "relUrl": "/zoo-chatbot/tutorial/chat/#table-of-contents"
+  },"76": {
+    "doc": "Chat",
+    "title": "Example request",
+    "content": "Send the following chat message: . POST /zoo-chatbot/chat . { \"message\": \"any giraffes?\" } . ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/tutorial/chat/#example-request",
+    
+    "relUrl": "/zoo-chatbot/tutorial/chat/#example-request"
+  },"77": {
+    "doc": "Chat",
+    "title": "Response",
+    "content": "Data is truncated for readability. Notice that the most relevant reply is returned: . Response . { \"category\": \"animal-list\", \"reply\": \"The zoo has 10 giraffes, 3 elephants, 2 lions and 12 penguins\", \"probabilities\": [ { \"category\": \"animal-list\", \"probability\": 0.6893424773 }, { \"category\": \"directions\", \"probability\": 0.0776643807 }, { \"category\": \"opening-times\", \"probability\": 0.0776643807 } ] } . | Tutorial | Chat | . ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/tutorial/chat/#response",
+    
+    "relUrl": "/zoo-chatbot/tutorial/chat/#response"
+  },"78": {
+    "doc": "Lemmatize",
+    "title": "Lemmatize",
+    "content": "The part-of-speech tags allow the tokens to be lemmatized. Lemmatization involves turning a word into its base form, or lemma. For example, the words am, are and is are all forms of the verb be. This process allows variants of the same word to be recognised. ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/tutorial/lemmatize/",
+    
+    "relUrl": "/zoo-chatbot/tutorial/lemmatize/"
+  },"79": {
+    "doc": "Lemmatize",
+    "title": "Table of contents",
+    "content": ". | Example request | Response | . ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/tutorial/lemmatize/#table-of-contents",
+    
+    "relUrl": "/zoo-chatbot/tutorial/lemmatize/#table-of-contents"
+  },"80": {
+    "doc": "Lemmatize",
+    "title": "Example request",
+    "content": "Send the following set of tokens and associated part-of-speech tags: . POST /zoo-chatbot/lemmatize . { \"tokens\": [ \"any\", \"giraffes\", \"?\" ], \"posTags\": [ \"DT\", \"NNS\", \".\" ] } . ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/tutorial/lemmatize/#example-request",
+    
+    "relUrl": "/zoo-chatbot/tutorial/lemmatize/#example-request"
+  },"81": {
+    "doc": "Lemmatize",
+    "title": "Response",
+    "content": "Notice that the word any is already in its base form and the word giraffes is converted to its base form of giraffe: . Response . { \"lemmas\": [ \"any\", \"giraffe\", \"?\" ], \"probabilities\": [ { \"lemma\": \"any\", \"probability\": 0.9965145882 }, { \"lemma\": \"giraffe\", \"probability\": 0.9917771516 }, { \"lemma\": \"?\", \"probability\": 0.4033399929 } ] } . | Tutorial | Lemmatize | . ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/tutorial/lemmatize/#response",
+    
+    "relUrl": "/zoo-chatbot/tutorial/lemmatize/#response"
+  },"82": {
+    "doc": "List lemmatized classification data",
+    "title": "List lemmatized classification data",
+    "content": "This endpoint lists the lemmatized classification data used for training the chatbot. It consists of lemmatized chat phrases that a user could potentially type, along with their associated reply category. Note the following two advantages of lemmatizing the training data: . | The input message data is also lemmatized and therefore aligns more closely when calculating a match. | Less training data is required because fewer variants of words are required: variants converge onto their lemma. | . ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/tutorial/list-lemmatized-classification-data/",
+    
+    "relUrl": "/zoo-chatbot/tutorial/list-lemmatized-classification-data/"
+  },"83": {
+    "doc": "List lemmatized classification data",
+    "title": "Table of contents",
+    "content": ". | Request | Response | . ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/tutorial/list-lemmatized-classification-data/#table-of-contents",
+    
+    "relUrl": "/zoo-chatbot/tutorial/list-lemmatized-classification-data/#table-of-contents"
+  },"84": {
+    "doc": "List lemmatized classification data",
+    "title": "Request",
+    "content": "Send the following request: . GET /zoo-chatbot/lemmatized-classification-data . ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/tutorial/list-lemmatized-classification-data/#request",
+    
+    "relUrl": "/zoo-chatbot/tutorial/list-lemmatized-classification-data/#request"
+  },"85": {
+    "doc": "List lemmatized classification data",
+    "title": "Response",
+    "content": "Data is truncated for readability. Notice that the data is lemmatized: . Response . { \"lemmatizedData\": [ { \"category\": \"animal-list\", \"lemmatizedPhrases\": [ \"what animal do you have\" ] }, { \"category\": \"directions\", \"lemmatizedPhrases\": [ \"where be you\" ] }, { \"category\": \"opening-times\", \"lemmatizedPhrases\": [ \"when be you open\" ] } ] } . | Tutorial | List lemmatized classification data | . ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/tutorial/list-lemmatized-classification-data/#response",
+    
+    "relUrl": "/zoo-chatbot/tutorial/list-lemmatized-classification-data/#response"
+  },"86": {
+    "doc": "List possible chat responses",
+    "title": "List possible chat responses",
+    "content": "This endpoint returns the set of possible replies that the chatbot can choose from. Each reply has a category, which is an identifier to link the reply to its associated training data. ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/tutorial/list-possible-chat-responses/",
+    
+    "relUrl": "/zoo-chatbot/tutorial/list-possible-chat-responses/"
+  },"87": {
+    "doc": "List possible chat responses",
+    "title": "Table of contents",
+    "content": ". | Request | Response | . ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/tutorial/list-possible-chat-responses/#table-of-contents",
+    
+    "relUrl": "/zoo-chatbot/tutorial/list-possible-chat-responses/#table-of-contents"
+  },"88": {
+    "doc": "List possible chat responses",
+    "title": "Request",
+    "content": "Send the following request: . GET /zoo-chatbot/possible-chat-responses . ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/tutorial/list-possible-chat-responses/#request",
+    
+    "relUrl": "/zoo-chatbot/tutorial/list-possible-chat-responses/#request"
+  },"89": {
+    "doc": "List possible chat responses",
+    "title": "Response",
+    "content": "Data is truncated for readability. Notice that the values of each category match the categories in the training data: . Response . { \"possibleResponses\": [ { \"category\": \"opening-times\", \"reply\": \"The opening times are Mon - Fri 9am - 7pm every day, including holidays\" }, { \"category\": \"animal-list\", \"reply\": \"The zoo has 10 giraffes, 3 elephants, 2 lions and 12 penguins\" }, { \"category\": \"ticket-prices\", \"reply\": \"Tickets cost £20 for adults and £10 for children. Refunds are permitted 48 hours or more prior to entry time\" } ] } . | Tutorial | List possible chat responses | . ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/tutorial/list-possible-chat-responses/#response",
+    
+    "relUrl": "/zoo-chatbot/tutorial/list-possible-chat-responses/#response"
+  },"90": {
+    "doc": "Summary",
+    "title": "Summary",
+    "content": "Congratulations! You have learnt to use the set of Zoo Chatbot API operations and have a basic understanding of them. See the API specification for more details and the deep dive for a deeper understanding of the Zoo Chatbot inner workings. Loading… . | Tutorial | Summary | . ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/tutorial/summary/",
+    
+    "relUrl": "/zoo-chatbot/tutorial/summary/"
+  },"91": {
+    "doc": "Tag parts of speech",
+    "title": "Tag parts of speech",
+    "content": "The tokens that constitute the chat message are tagged with part-of-speech labels such as word classes and punctuation marks. For example, a token may be a word and that word may be a verb. This allows the chatbot to better understand the context of the tokens and the structure of the message. Zoo Chatbot uses the Penn Treebank part-of-speech tags. For example, a plural noun is denoted by NNS. ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/tutorial/tag-parts-of-speech/",
+    
+    "relUrl": "/zoo-chatbot/tutorial/tag-parts-of-speech/"
+  },"92": {
+    "doc": "Tag parts of speech",
+    "title": "Table of contents",
+    "content": ". | Example request | Response | . ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/tutorial/tag-parts-of-speech/#table-of-contents",
+    
+    "relUrl": "/zoo-chatbot/tutorial/tag-parts-of-speech/#table-of-contents"
+  },"93": {
+    "doc": "Tag parts of speech",
+    "title": "Example request",
+    "content": "Send the following tokenized message: . POST /zoo-chatbot/tag-parts-of-speech . { \"tokens\": [ \"any\", \"giraffes\", \"?\" ] } . ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/tutorial/tag-parts-of-speech/#example-request",
+    
+    "relUrl": "/zoo-chatbot/tutorial/tag-parts-of-speech/#example-request"
+  },"94": {
+    "doc": "Tag parts of speech",
+    "title": "Response",
+    "content": "Notice that any is identified as a determiner and giraffes is identified as a plural noun. The full stop denotes the end of a sentence: . Response . { \"tags\": [ \"DT\", \"NNS\", \".\" ], \"probabilities\": [ { \"tag\": \"DT\", \"probability\": 0.9201411555 }, { \"tag\": \"NNS\", \"probability\": 0.867740459 }, { \"tag\": \".\", \"probability\": 0.982848614 } ] } . | Tutorial | Tag parts of speech | . ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/tutorial/tag-parts-of-speech/#response",
+    
+    "relUrl": "/zoo-chatbot/tutorial/tag-parts-of-speech/#response"
+  },"95": {
+    "doc": "Tokenize",
+    "title": "Tokenize",
+    "content": "A chat message must first be tokenized into its constituent natural language constructs such as words and punctuation marks. This allows meaning to subsequently be attached to each part of the message. ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/tutorial/tokenize/",
+    
+    "relUrl": "/zoo-chatbot/tutorial/tokenize/"
+  },"96": {
+    "doc": "Tokenize",
+    "title": "Table of contents",
+    "content": ". | Basic request | Response | Erroneous request | Response | . ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/tutorial/tokenize/#table-of-contents",
+    
+    "relUrl": "/zoo-chatbot/tutorial/tokenize/#table-of-contents"
+  },"97": {
+    "doc": "Tokenize",
+    "title": "Basic request",
+    "content": "Send the following chat request: . POST /zoo-chatbot/tokenize . { \"message\": \"any giraffes?\" } . ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/tutorial/tokenize/#basic-request",
+    
+    "relUrl": "/zoo-chatbot/tutorial/tokenize/#basic-request"
+  },"98": {
+    "doc": "Tokenize",
+    "title": "Response",
+    "content": "Notice how the message is split into two words and a question mark, with high probabilities of correctness: . Response . { \"tokens\": [ \"any\", \"giraffes\", \"?\" ], \"probabilities\": [ { \"token\": \"any\", \"probability\": 1 }, { \"token\": \"giraffes\", \"probability\": 0.9925965989 }, { \"token\": \"?\", \"probability\": 1 } ] } . ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/tutorial/tokenize/#response",
+    
+    "relUrl": "/zoo-chatbot/tutorial/tokenize/#response"
+  },"99": {
+    "doc": "Tokenize",
+    "title": "Erroneous request",
+    "content": "Chatbots must deal with typos and grammatical mistakes. Send the following request which contains such errors: . POST /zoo-chatbot/tokenize . { \"message\": \"giraffes like to eat? leaves,oh\" } . ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/tutorial/tokenize/#erroneous-request",
+    
+    "relUrl": "/zoo-chatbot/tutorial/tokenize/#erroneous-request"
+  },"100": {
+    "doc": "Tokenize",
+    "title": "Response",
+    "content": "Notice that the probabilities of correctness of the tokens are lower for the erroneous parts of the message: . Response . { \"tokens\": [ \"giraffes\", \"like\", \"to\", \"eat\", \"?\", \"leaves\", \",oh\" ], \"probabilities\": [ { \"token\": \"giraffes\", \"probability\": 1.0 }, { \"token\": \"like\", \"probability\": 1.0 }, { \"token\": \"to\", \"probability\": 1.0 }, { \"token\": \"eat\", \"probability\": 0.9912258614 }, { \"token\": \"?\", \"probability\": 1.0 }, { \"token\": \"leaves\", \"probability\": 0.9503636232 }, { \"token\": \",oh\", \"probability\": 0.9828333777 } ] } . | Tutorial | Tokenize | . ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/tutorial/tokenize/#response-1",
+    
+    "relUrl": "/zoo-chatbot/tutorial/tokenize/#response-1"
+  },"101": {
+    "doc": "Deep dive",
+    "title": "Zoo Chatbot deep dive",
+    "content": "This deep dive outlines the main concepts of the Zoo Chatbot inner workings. ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/zoo-chatbot-deep-dive/#zoo-chatbot-deep-dive",
+    
+    "relUrl": "/zoo-chatbot/zoo-chatbot-deep-dive/#zoo-chatbot-deep-dive"
+  },"102": {
+    "doc": "Deep dive",
+    "title": "Table of contents",
+    "content": ". | Natural Language Processing | Tokenization | Part-of-speech tagging | Lemmatization | Chat | Maximum entropy | Learn more | . ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/zoo-chatbot-deep-dive/#table-of-contents",
+    
+    "relUrl": "/zoo-chatbot/zoo-chatbot-deep-dive/#table-of-contents"
+  },"103": {
+    "doc": "Deep dive",
+    "title": "Natural Language Processing",
+    "content": "Natural Language Processing (NLP) is the leverage of computing to understand language. It involves a variety of linguistic datasets, or corpora, along with associated algorithms that transform this data into language models. Zoo Chatbot implements OpenNLP to perform the following NLP tasks, which are explained in following sections: . | Tokenization | Part-of-speech tagging | Lemmatization | Chat | . ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/zoo-chatbot-deep-dive/#natural-language-processing",
+    
+    "relUrl": "/zoo-chatbot/zoo-chatbot-deep-dive/#natural-language-processing"
+  },"104": {
+    "doc": "Deep dive",
+    "title": "Tokenization",
+    "content": "Zoo Chatbot tokenizes a message into its constituent parts, such as words and punctuation marks, for subsequent part-of-speech tagging. Words are predominantly segmented by white space, with punctuation marks potentially attached in the case of abbreviations. Tokenization decisions are based on a pre-trained maximum entropy model of tokenization data. ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/zoo-chatbot-deep-dive/#tokenization",
+    
+    "relUrl": "/zoo-chatbot/zoo-chatbot-deep-dive/#tokenization"
+  },"105": {
+    "doc": "Deep dive",
+    "title": "Part-of-speech tagging",
+    "content": "The tokens are tagged with Penn Treebank part-of-speech labels to indicate word classes and punctuation marks. The choice of tag depends on the context in terms of surrounding tokens. Tagging decisions are based on a pre-trained maximum entropy model of tag data. ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/zoo-chatbot-deep-dive/#part-of-speech-tagging",
+    
+    "relUrl": "/zoo-chatbot/zoo-chatbot-deep-dive/#part-of-speech-tagging"
+  },"106": {
+    "doc": "Deep dive",
+    "title": "Lemmatization",
+    "content": "The part-of-speech tags allow tokens to be lemmatized, meaning words are converted into their base form. This allows variants of the same word to be recognised. Lemmatization decisions are based on a pre-trained statistical model of lemmatization data. The training algorithm is based on a PhD dissertation by Grzegorz Chrupala and performs two main functions: . | Specialised suffixation: many word inflections affect the suffix, for example big can become bigger or biggest. The lemma big is formed by traversing from the end of the inflected word and performing a series of insertions and deletions. | Generalised prefixation and suffixation: word forms inapplicable to specialised suffixation are traversed from both the beginning and the end to find the longest common substring, or stem. For example, the Polish words for hard and hardest are trudny and najtrudniejszy respectively, and they share the stem of trudn. The lemma trudny is formed through a series of insertions and deletions. | . ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/zoo-chatbot-deep-dive/#lemmatization",
+    
+    "relUrl": "/zoo-chatbot/zoo-chatbot-deep-dive/#lemmatization"
+  },"107": {
+    "doc": "Deep dive",
+    "title": "Chat",
+    "content": "The chatbot first implements the other techniques to prepare a message: . | Tokenization | Part-of-speech tagging | Lemmatization | . The chatbot then trains a maximum entropy model of lemmatized classification data in order to choose the most probable response. The training data must be converted from text into numerical values for the training algorithm to interpret it. The chatbot implements the bag-of-words model, which involves creating a set of unique words from the data and counting their occurrences. A category with relatively more occurrences of a word is more likely to be selected when that word is present in the input. See the following simplified example based on a small extract of the data: . Extract of lemmatized classification data . opening-times what time do you open opening-times what be your open time opening-times what be your open hour . Bag-of-words represented as an array of strings . [\"bow=be\", \"bow=do\", \"bow=hour\", \"bow=open\", \"bow=time\", \"bow=what\", \"bow=you\", \"bow=your\"] . Word count represented as an array of integers . [2, 1, 1, 3, 2, 3, 1, 2] . ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/zoo-chatbot-deep-dive/#chat",
+    
+    "relUrl": "/zoo-chatbot/zoo-chatbot-deep-dive/#chat"
+  },"108": {
+    "doc": "Deep dive",
+    "title": "Maximum entropy",
+    "content": "The maximum entropy algorithm finds a probability distribution that maximises entropy, within constraints dictated by the data. Consider a dice roll as an example. A dice roll has high entropy, meaning that it’s unpredictable, with a uniformly spread out probability distribution (see Figure 1). Empirical training data will indicate this uniform distribution and therefore impose no real constraint, since the model already exhibits maximum entropy. Figure 1. Regular dice with high entropy Suppose the dice is weighted in favour of rolling a 6. A naive algorithm might model the dice as always rolling a 6 and therefore indicate zero entropy (see Figure 2). A lack of entropy results in failure to represent outliers; however, as illustrated in Figure 1, too much entropy results in a vague model of randomness. A realistic weighted dice is somewhere between the two probability distributions. Figure 2. Unrealistic weighted dice with zero entropy Consider the same weighted dice modelled with maximum entropy. The algorithm will maximise entropy by assigning importance to outliers (values 1-5). However, the outliers will be considered less significant than the more common value of 6 because the algorithm is constrained by the data, which favours a value of 6. The model is specific enough to show trends yet generic enough to include less common outcomes (see Figure 3). Figure 3. Realistic weighted dice with low entropy The Zoo Chatbot resembles this weighted dice example, except the algorithm is constrained by the mapping of input data to output data during training, as opposed to a favoured side of a dice. The maximum entropy algorithm favours output based on the mappings whilst maximising the probabilities of less likely outputs. ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/zoo-chatbot-deep-dive/#maximum-entropy",
+    
+    "relUrl": "/zoo-chatbot/zoo-chatbot-deep-dive/#maximum-entropy"
+  },"109": {
+    "doc": "Deep dive",
+    "title": "Learn more",
+    "content": ". | See the Zoo Chatbot tutorial for a practical guide of operations. | See the API specification for the full specification. | . Loading… ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/zoo-chatbot-deep-dive/#learn-more",
+    
+    "relUrl": "/zoo-chatbot/zoo-chatbot-deep-dive/#learn-more"
+  },"110": {
+    "doc": "Deep dive",
+    "title": "Deep dive",
+    "content": " ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/zoo-chatbot-deep-dive/",
+    
+    "relUrl": "/zoo-chatbot/zoo-chatbot-deep-dive/"
+  },"111": {
+    "doc": "FAQ",
+    "title": "Zoo Chatbot FAQ",
+    "content": " ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/zoo-chatbot-faq/#zoo-chatbot-faq",
+    
+    "relUrl": "/zoo-chatbot/zoo-chatbot-faq/#zoo-chatbot-faq"
+  },"112": {
+    "doc": "FAQ",
+    "title": "Table of contents",
+    "content": ". | Getting started | API | Inner workings | . ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/zoo-chatbot-faq/#table-of-contents",
+    
+    "relUrl": "/zoo-chatbot/zoo-chatbot-faq/#table-of-contents"
+  },"113": {
+    "doc": "FAQ",
+    "title": "Getting started",
+    "content": "How do I run Zoo Chatbot? See the Install and run quickstart. Are there any prerequisites? See the Install and run quickstart &gt; Prerequisites. How do I learn about natural language processing? See the Zoo Chatbot deep dive. ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/zoo-chatbot-faq/#getting-started",
+    
+    "relUrl": "/zoo-chatbot/zoo-chatbot-faq/#getting-started"
+  },"114": {
+    "doc": "FAQ",
+    "title": "API",
+    "content": "How do I learn the API? See the Zoo Chatbot tutorial. Where is the full API specification? See the API specification. What can I ask the chatbot? Ask the chatbot anything. However, note that responses are limited in number and the most relevant response will be returned. See Install and run quickstart &gt; Send a chat message for an example request. ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/zoo-chatbot-faq/#api",
+    
+    "relUrl": "/zoo-chatbot/zoo-chatbot-faq/#api"
+  },"115": {
+    "doc": "FAQ",
+    "title": "Inner workings",
+    "content": "Which language is Zoo Chatbot written in? Zoo Chatbot is written in Java and implements the Spring Boot framework. How does Zoo Chatbot work internally? See the Zoo Chatbot deep dive. What kind of data is Zoo Chatbot based on? Zoo Chatbot is based on a combination of raw data and pre-trained models. See the Zoo Chatbot deep dive for more details. ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/zoo-chatbot-faq/#inner-workings",
+    
+    "relUrl": "/zoo-chatbot/zoo-chatbot-faq/#inner-workings"
+  },"116": {
+    "doc": "FAQ",
+    "title": "FAQ",
+    "content": " ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/zoo-chatbot-faq/",
+    
+    "relUrl": "/zoo-chatbot/zoo-chatbot-faq/"
+  },"117": {
+    "doc": "Introduction",
+    "title": "Zoo Chatbot",
+    "content": "Figure 1. Photo by Kevin Woblick on Unsplash ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/zoo-chatbot-intro/#zoo-chatbot",
+    
+    "relUrl": "/zoo-chatbot/zoo-chatbot-intro/#zoo-chatbot"
+  },"118": {
+    "doc": "Introduction",
+    "title": "Table of contents",
+    "content": ". | Introduction | Get started | . ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/zoo-chatbot-intro/#table-of-contents",
+    
+    "relUrl": "/zoo-chatbot/zoo-chatbot-intro/#table-of-contents"
+  },"119": {
+    "doc": "Introduction",
+    "title": "Introduction",
+    "content": "Zoo Chatbot implements OpenNLP to train a set of question patterns about a zoo and match them to one of five answers. It can then generate the probabilities of each answer being correct. ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/zoo-chatbot-intro/",
+    
+    "relUrl": "/zoo-chatbot/zoo-chatbot-intro/"
+  },"120": {
+    "doc": "Introduction",
+    "title": "Get started",
+    "content": "See one or more of the following ways to get started, depending on preference of learning approach: . | Perform the Install and run quickstart to run Zoo Chatbot. | Complete the Zoo Chatbot tutorial to gain practical experience of the API. | Read the Zoo Chatbot deep dive to gain a deeper theoretical understanding. | See the API specification for fine details of the API. | . ",
+    "url": "/raid-jekyll-docs/zoo-chatbot/zoo-chatbot-intro/#get-started",
+    
+    "relUrl": "/zoo-chatbot/zoo-chatbot-intro/#get-started"
+  }
+}
