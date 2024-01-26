@@ -9,7 +9,7 @@ img-tiger-index: 1
 {: .no_toc }
 
 <figure>
-<img src="/assets/images/zoo.jpg" alt="Tiger resting at the zoo" />
+<img src="{{ site.baseurl }}/assets/images/zoo.jpg" alt="Tiger resting at the zoo" />
 <figcaption>Figure {{page.img-tiger-index}}. Photo by <a href="https://unsplash.com/@kovah" target="_blank">Kevin Woblick</a> on 
 <a href="https://unsplash.com/photos/_54TF64ad9M" target="_blank">Unsplash</a></figcaption>
 </figure>
