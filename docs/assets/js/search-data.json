@@ -113,7 +113,7 @@
   },"16": {
     "doc": "Install and run quickstart",
     "title": "Build with the command line",
-    "content": "Go into the project root folder and build an executable JAR as follows: . $ ./gradlew bootJar . ",
+    "content": "Go into the project root folder and build an executable JAR as follows: ./gradlew bootJar . ",
     "url": "/raid-jekyll-docs/demo-overview/install-and-run-quickstart/#build-with-the-command-line",
     
     "relUrl": "/demo-overview/install-and-run-quickstart/#build-with-the-command-line"
@@ -134,7 +134,7 @@
   },"19": {
     "doc": "Install and run quickstart",
     "title": "Run with the command line",
-    "content": "Go into the project root folder and run the executable JAR as follows: . $ java -jar build/libs/demo-0.0.1-SNAPSHOT.jar . ",
+    "content": "Go into the project root folder and run the executable JAR as follows: . java -jar build/libs/demo-0.0.1-SNAPSHOT.jar . ",
     "url": "/raid-jekyll-docs/demo-overview/install-and-run-quickstart/#run-with-the-command-line",
     
     "relUrl": "/demo-overview/install-and-run-quickstart/#run-with-the-command-line"

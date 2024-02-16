@@ -37,14 +37,15 @@ then use an IDE or the command line to continue.
 
 Import the code as a Java project. [IntelliJ](https://www.jetbrains.com/idea/){:target="_blank"} is recommended.
 
-RAID uses [Lombok](https://projectlombok.org){:target="_blank"} to reduce boilerplate code. Ensure that the IDE has a 
-Lombok plugin and that annotation processing is enabled.
+{: .important }
+> RAID uses [Lombok](https://projectlombok.org){:target="_blank"} to reduce boilerplate code. Ensure that the IDE has a 
+> Lombok plugin and that annotation processing is enabled.
 
 ## Build with the command line
 
 Go into the project root folder and build an executable JAR as follows:
 
-    $ ./gradlew bootJar
+    ./gradlew bootJar
 
 # Run
 
@@ -58,7 +59,7 @@ Open `AIDemoApplication.java` and run the `main` method using the IDE **Play** b
 
 Go into the project root folder and run the executable JAR as follows:
 
-    $ java -jar build/libs/demo-0.0.1-SNAPSHOT.jar
+    java -jar build/libs/demo-0.0.1-SNAPSHOT.jar
 
 # Use the RESTful API
 
