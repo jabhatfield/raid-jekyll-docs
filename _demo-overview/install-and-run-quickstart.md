@@ -30,7 +30,7 @@ numerical value.
 
 # Build
 
-Clone the code from [GitHub](https://github.com/jon-hatfield-tech-writing/ai-demo){:target="_blank"}
+Clone the code from [GitHub](https://github.com/jabhatfield/ai-demo){:target="_blank"}
 then use an IDE or the command line to continue.
 
 ## Build with an IDE
