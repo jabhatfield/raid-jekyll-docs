@@ -26,7 +26,7 @@ performs the classification.
 Send the following request to explicitly process the same image
 processed by the [Classify a handwritten zero]({% link _handwriting-recogniser/tutorial/classify-handwritten-zero.md %})
 endpoint
-<img src="https://github.com/jon-hatfield-tech-writing/ai-demo/blob/main/src/main/resources/images/0.png?raw=true" alt="0" width="20" height="20" />:
+<img src="https://github.com/jabhatfield/ai-demo/blob/main/src/main/resources/images/0.png?raw=true" alt="0" width="20" height="20" />:
 
 {: .http-request }
 POST /handwriting-recogniser/classify-handwritten-number
@@ -49,7 +49,7 @@ Response
 # Ambiguous request
 
 Send the following request to process an ambiguous image of a three that looks like an eight
-<img src="https://github.com/jon-hatfield-tech-writing/ai-demo/blob/main/src/main/resources/images/3-that-looks-like-8.png?raw=true" alt="3-like-8" width="20" height="20" />:
+<img src="https://github.com/jabhatfield/ai-demo/blob/main/src/main/resources/images/3-that-looks-like-8.png?raw=true" alt="3-like-8" width="20" height="20" />:
 
 {: .http-request }
 POST /handwriting-recogniser/classify-handwritten-number
@@ -85,7 +85,7 @@ Images must have the following properties:
 * PNG format
 
 Place the image in the 
-[images source folder](https://github.com/jon-hatfield-tech-writing/ai-demo/tree/main/src/main/resources/images){:target="_blank"}:
+[images source folder](https://github.com/jabhatfield/ai-demo/tree/main/src/main/resources/images){:target="_blank"}:
 `src/main/resources/images`.
 
 {% include restart-application-important.md %}

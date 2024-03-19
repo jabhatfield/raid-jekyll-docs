@@ -9,7 +9,7 @@ nav_order: 1
 {: .no_toc }
 
 This endpoint classifies an image of a handwritten zero
-<img src="https://github.com/jon-hatfield-tech-writing/ai-demo/blob/main/src/main/resources/images/0.png?raw=true" alt="0" width="20" height="20" />
+<img src="https://github.com/jabhatfield/ai-demo/blob/main/src/main/resources/images/0.png?raw=true" alt="0" width="20" height="20" />
 that has been provided by [DJL](http://djl.ai){:target="_blank"}. A neural network trained on the 
 [MNIST database of handwritten digits](https://en.wikipedia.org/wiki/MNIST_database){:target="_blank"}
 performs the classification.
